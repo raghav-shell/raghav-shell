@@ -97,6 +97,8 @@ def txt(x, y, content, size=18, color="#d6ddef", weight=400, extra=""):
 def frame(width, height, title, content, theme="light"):
     palette = DARK if theme == "dark" else LIGHT
     content = re.sub(r'(fill|stroke)="(#[0-9a-fA-F]{6})"', lambda m: f'{m[1]}="{palette.get(m[2].lower(), m[2])}"', content)
+    if 'class="commit-dot"' in content:
+        content = '<style>.commit-dot{animation:pulse 4s ease-in-out infinite}@keyframes pulse{50%{opacity:.4}}@media(prefers-reduced-motion:reduce){.commit-dot{animation:none}}</style>' + content
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title><g font-family="{FONT}">{content}</g></svg>\n'
 
 
@@ -110,12 +112,12 @@ def render_activity(snapshot, theme="light"):
     s = '<defs><clipPath id="messages"><rect x="244" y="110" width="556" height="250"/></clipPath></defs><rect x=".5" y=".5" width="959" height="429" rx="22" fill="#131728" stroke="#38394f"/><path d="M30 1H930" stroke="#c4b5fd" stroke-width="2"/>'
     s += txt(32, 37, "THE BUILD LOG", 12, "#c4b5fd", 650, 'letter-spacing="2"')
     s += txt(31, 81, "The latest little steps.", 31, "#f5f4ff", 750, 'font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"')
-    s += txt(929, 38, "PUBLIC GITHUB DATA", 11, "#a6b1cb", 500, 'text-anchor="end" letter-spacing="1"')
+    s += txt(929, 38, "DAILY / PUBLIC COMMITS", 11, "#a6b1cb", 500, 'text-anchor="end" letter-spacing="1"')
     s += '<path d="M32 106H928" stroke="#33374c"/>'
     for index, project in enumerate(projects):
         y = 143 + index * 60
         commit = project["commit"]
-        s += f'<circle cx="40" cy="{y-5}" r="5" fill="{project["color"]}"/>'
+        s += f'<circle class="commit-dot" cx="40" cy="{y-5}" r="6" fill="{project["color"]}"/>'
         s += txt(59, y, project["name"], 19, project["color"], 650)
         s += '<g clip-path="url(#messages)">' + txt(244, y, short(commit["message"], 54), 17) + '</g>'
         s += txt(928, y, date(commit["authored_at"]).strftime("%d %b %Y"), 13, "#abb7cf", 500, 'text-anchor="end"')
@@ -139,7 +141,8 @@ def render_mobile_activity(snapshot, theme="light"):
     for index, project in enumerate(projects):
         y = 121 + index * 98
         commit = project["commit"]
-        s += txt(22, y, project["name"], 18, project["color"], 650)
+        s += f'<circle class="commit-dot" cx="27" cy="{y-6}" r="4" fill="{project["color"]}"/>'
+        s += txt(40, y, project["name"], 18, project["color"], 650)
         s += txt(398, y, date(commit["authored_at"]).strftime("%d %b %Y"), 12, "#abb7cf", 500, 'text-anchor="end"')
         lines = textwrap.wrap(commit["message"], width=43, max_lines=2, placeholder="…")
         for line, value in enumerate(lines):

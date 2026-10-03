@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v5-light.svg"><img src="assets/profile-header-v5-light.svg" width="100%" alt="Hi, I’m Raghav. Thoughtful code, a little imagination. A smiling pixel computer, cat, greenery, and sunshine." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-header-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/profile-header-v7-mobile-light.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v7-light.svg"><img src="assets/profile-header-v7-light.svg" width="100%" alt="Hi, I’m Raghav. Thoughtful code, a little imagination. A smiling pixel computer, cat, greenery, and sunshine." /></picture>
 </p>
 
 <p align="center">
@@ -8,29 +8,34 @@
 </p>
 
 <p align="center">
-  <a href="#a-little-about-me">About me</a> &nbsp; · &nbsp;
-  <a href="#things-ive-been-building">My projects</a> &nbsp; · &nbsp;
-  <a href="#a-little-progress-lately">What’s new</a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/raghav-sharma-in/">Say hello ↗</a>
+  <a href="#a-little-about-me">About&nbsp;me</a> &nbsp; · &nbsp;
+  <a href="#things-ive-been-building">My&nbsp;projects</a> &nbsp; · &nbsp;
+  <a href="#a-little-progress-lately">What’s&nbsp;new</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/">Say&nbsp;hello&nbsp;↗</a>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
-## A little about me
+<a name="a-little-about-me"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-about-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-about-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-about-v7-mobile-light.svg"><img src="assets/heading-about-v7-light.svg" width="100%" alt="A little about me" /></picture></h2>
 
-I’m **Raghav Sharma**, a student developer from **India**, taking part in **international hackathons** and building with **TypeScript, React / Next.js, Python, and FastAPI**.
+I’m **Raghav Sharma**, a student developer from **India** who enjoys building useful software and taking ideas into **international hackathons**.
 
-I enjoy working across the whole experience: shaping an interface, connecting the API, and making the workflow understandable. My recent team contributions include **branding, frontend development, integration, and document processing**. I care about useful software that feels good to use—and looks like someone cared.
+I like connecting the whole experience: **a thoughtful interface → a working API → a clear workflow**. My recent team contributions include **branding, frontend development, integration, and document processing**.
 
-> 🌱 **What I’m exploring:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
+I build with **TypeScript, React / Next.js, Python, and FastAPI**. I care about software that feels good to use—and looks like someone cared.
 
-## Things I’ve been building
+> [!NOTE]
+> **Growing my toolkit:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
 
-A little collection of things I’ve built and helped build. Pick a card to explore; open the notes for the engineering details.
+<a name="things-ive-been-building"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-projects-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-projects-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-projects-v7-mobile-light.svg"><img src="assets/heading-projects-v7-light.svg" width="100%" alt="Things I’ve been building" /></picture></h2>
+
+**Small ideas, real projects.** Pick a card to explore the repository; open its notes for the engineering and my contributions.
 
 <p align="center">
-  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v5-light.svg"><img src="assets/project-aegis-v5-light.svg" width="400" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
-  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v5-light.svg"><img src="assets/project-visionx-v5-light.svg" width="400" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
+  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v7-light.svg"><img src="assets/project-aegis-v7-light.svg" width="400" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
+  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v7-light.svg"><img src="assets/project-visionx-v7-light.svg" width="400" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
 </p>
 
 <details>
@@ -45,8 +50,8 @@ A little collection of things I’ve built and helped build. Pick a card to expl
 </details>
 
 <p align="center">
-  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v5-light.svg"><img src="assets/project-razorflow-v5-light.svg" width="400" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
-  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v5-light.svg"><img src="assets/project-competeiq-v5-light.svg" width="400" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
+  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v7-light.svg"><img src="assets/project-razorflow-v7-light.svg" width="400" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
+  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v7-light.svg"><img src="assets/project-competeiq-v7-light.svg" width="400" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
 </p>
 
 <details>
@@ -59,8 +64,8 @@ A little collection of things I’ve built and helped build. Pick a card to expl
 </details>
 
 <p align="center">
-  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v5-light.svg"><img src="assets/project-lexguard-v5-light.svg" width="400" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
-  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v5-light.svg"><img src="assets/project-shell-v5-light.svg" width="400" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
+  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v7-light.svg"><img src="assets/project-lexguard-v7-light.svg" width="400" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
+  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v7-light.svg"><img src="assets/project-shell-v7-light.svg" width="400" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
 </p>
 
 <details>
@@ -72,11 +77,12 @@ A little collection of things I’ve built and helped build. Pick a card to expl
 
 </details>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
-## A little progress lately
+<a name="a-little-progress-lately"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-progress-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-progress-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-progress-v7-mobile-light.svg"><img src="assets/heading-progress-v7-light.svg" width="100%" alt="A little progress lately" /></picture></h2>
 
-Fresh little steps across my projects, pulled from public GitHub commits.
+**A few fresh steps forward.** Recent public commits across my projects, refreshed daily.
 
 <p align="center">
   <a href="https://github.com/raghav-shell?tab=overview"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/live/activity-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/live/activity-dark.svg"><source media="(max-width: 600px)" srcset="assets/live/activity-mobile.svg"><img src="assets/live/activity.svg" width="100%" alt="Latest authored commits across my selected projects, with a visible snapshot timestamp." /></picture></a>
@@ -91,18 +97,20 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 
 </details>
 
-## Tools I reach for
+<a name="tools-i-reach-for"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-tools-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-tools-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-tools-v7-mobile-light.svg"><img src="assets/heading-tools-v7-light.svg" width="100%" alt="Tools I reach for" /></picture></h2>
 
 **For interfaces** · TypeScript, React, Next.js, Tailwind CSS, Vite  
 **For APIs & data** · Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery  
 **For AI workflows** · LangGraph, Ollama integration, Gemini, OpenRouter, Tavily  
 **For building & checking** · Git, Docker Compose, pytest · Java for my shell project
 
-## Tech stack
+<a name="tech-stack"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-stack-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-stack-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-stack-v7-mobile-light.svg"><img src="assets/heading-stack-v7-light.svg" width="100%" alt="Tech stack" /></picture></h2>
 
-The technologies behind my projects, collected in one place.
+**The pieces behind the projects.** A mix of interface tools, backend systems, and AI building blocks.
 
-**Interfaces**
+**🖥️ Interfaces**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/typescript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/typescript-light.svg"><img src="assets/stack/typescript-light.svg" width="96" alt="TypeScript logo" /></picture>
@@ -112,7 +120,7 @@ The technologies behind my projects, collected in one place.
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/vitejs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/vitejs-light.svg"><img src="assets/stack/vitejs-light.svg" width="96" alt="Vite logo" /></picture>
 </p>
 
-**APIs & data**
+**🗃️ APIs & data**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/python-light.svg"><img src="assets/stack/python-light.svg" width="96" alt="Python logo" /></picture>
@@ -125,7 +133,7 @@ The technologies behind my projects, collected in one place.
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/celery-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/celery-light.svg"><img src="assets/stack/celery-light.svg" width="96" alt="Celery logo" /></picture>
 </p>
 
-**AI workflows**
+**✦ AI workflows**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/langgraph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/langgraph-light.svg"><img src="assets/stack/langgraph-light.svg" width="96" alt="LangGraph logo" /></picture>
@@ -135,7 +143,7 @@ The technologies behind my projects, collected in one place.
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tavily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tavily-light.svg"><img src="assets/stack/tavily-light.svg" width="96" alt="Tavily logo" /></picture>
 </p>
 
-**Build & check**
+**🛠️ Build & check**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/git-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/git-light.svg"><img src="assets/stack/git-light.svg" width="96" alt="Git logo" /></picture>
@@ -144,10 +152,10 @@ The technologies behind my projects, collected in one place.
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/java-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/java-light.svg"><img src="assets/stack/java-light.svg" width="96" alt="Java logo" /></picture>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v5-light.svg"><img src="assets/connect-v5-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v7-light.svg"><img src="assets/connect-v7-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
 </p>
 
 <p align="center">
