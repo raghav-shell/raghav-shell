@@ -155,6 +155,12 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
 <p align="center">
+  <a href="https://raghav-shell.github.io/raghav-shell/game/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/game-card-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/game-card-dark.svg"><source media="(max-width: 600px)" srcset="assets/game-card-mobile-light.svg"><img src="assets/game-card-light.svg" width="100%" alt="Play Garden Pairs: a tiny, cute matching game with a pixel cat, sunshine, a sprout, and a star. Eight cards, four pairs. Opens the playable game." /></picture></a>
+</p>
+
+<p align="center"><a href="https://raghav-shell.github.io/raghav-shell/game/"><b>Play a little Garden Pairs ↗</b></a> · Eight cards. Four pairs. No rush.</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v7-light.svg"><img src="assets/connect-v7-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
 </p>
 
