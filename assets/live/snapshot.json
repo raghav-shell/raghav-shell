@@ -1,0 +1,79 @@
+{
+  "user": "raghav-shell",
+  "updated_at": "2026-10-03T12:28:24.440746+00:00",
+  "source": "GitHub REST API: latest commit filtered by author on each repository's default branch",
+  "projects": [
+    {
+      "slug": "aegis",
+      "name": "AEGIS",
+      "repo": "kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench",
+      "color": "#c4b5fd",
+      "commit": {
+        "sha": "c3990480fc6d7774136a5d107e782708cc5fc5e4",
+        "url": "https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench/commit/c3990480fc6d7774136a5d107e782708cc5fc5e4",
+        "message": "Merge pull request #2 from kartikeyajay2006/Industrial_Raghav",
+        "authored_at": "2026-09-22T23:19:32Z"
+      }
+    },
+    {
+      "slug": "visionx",
+      "name": "VisionX",
+      "repo": "raghav-shell/VisionX",
+      "color": "#67e8f9",
+      "commit": {
+        "sha": "94c9e90cacce55875be4a92c81fcf48dc2ebbccf",
+        "url": "https://github.com/raghav-shell/VisionX/commit/94c9e90cacce55875be4a92c81fcf48dc2ebbccf",
+        "message": "build: specify webpack builder for deterministic production compilation",
+        "authored_at": "2026-09-30T10:22:56Z"
+      }
+    },
+    {
+      "slug": "razorflow",
+      "name": "RazorFlow",
+      "repo": "raghav-shell/RazorFlow",
+      "color": "#fda4af",
+      "commit": {
+        "sha": "5546e0ca98ee1da26871600225ec278edfa03e84",
+        "url": "https://github.com/raghav-shell/RazorFlow/commit/5546e0ca98ee1da26871600225ec278edfa03e84",
+        "message": "chore: exclude internal strategy documents from public repository",
+        "authored_at": "2026-09-01T08:40:48Z"
+      }
+    },
+    {
+      "slug": "competeiq",
+      "name": "CompeteIQ",
+      "repo": "raghav-shell/Compete_latest",
+      "color": "#93c5fd",
+      "commit": {
+        "sha": "17bf68f347d527baa33c0d3ad95936e1cbd50b1d",
+        "url": "https://github.com/raghav-shell/Compete_latest/commit/17bf68f347d527baa33c0d3ad95936e1cbd50b1d",
+        "message": "docs: add premium readme with live demo link",
+        "authored_at": "2026-05-16T02:15:44Z"
+      }
+    },
+    {
+      "slug": "lexguard",
+      "name": "Lexguard",
+      "repo": "raghav-shell/Lexguard",
+      "color": "#f0abfc",
+      "commit": {
+        "sha": "510b2ffad696ca7f4049d3e534176b1d7ff7f13c",
+        "url": "https://github.com/raghav-shell/Lexguard/commit/510b2ffad696ca7f4049d3e534176b1d7ff7f13c",
+        "message": "fix: wait for typing animation completion before closing overlay",
+        "authored_at": "2026-06-05T10:45:46Z"
+      }
+    },
+    {
+      "slug": "shell",
+      "name": "Os_Shell",
+      "repo": "raghav-shell/Os_Shell",
+      "color": "#bef264",
+      "commit": {
+        "sha": "31f5f3dbf07f62f3ff576dd13f5894655c202002",
+        "url": "https://github.com/raghav-shell/Os_Shell/commit/31f5f3dbf07f62f3ff576dd13f5894655c202002",
+        "message": "Update README to document shell features",
+        "authored_at": "2026-06-20T11:36:36Z"
+      }
+    }
+  ]
+}

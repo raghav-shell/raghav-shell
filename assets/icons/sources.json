@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "typescript",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/typescript/typescript-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "react",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/react/react-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "nextjs",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/nextjs/nextjs-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "tailwindcss",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/tailwindcss/tailwindcss-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "vitejs",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/vitejs/vitejs-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "python",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/python/python-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "fastapi",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/fastapi/fastapi-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "postgresql",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/postgresql/postgresql-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "sqlalchemy",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/sqlalchemy/sqlalchemy-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "sqlite",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/sqlite/sqlite-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "redis",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/redis/redis-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "git",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/git/git-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "docker",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/docker/docker-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "pytest",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/pytest/pytest-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "java",
+    "library": "devicons/devicon",
+    "commit": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/java/java-original.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "pydantic",
+    "library": "simple-icons/simple-icons",
+    "commit": "1089fb7d2bf0e323f834c205ab76265005a6d5e8",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/pydantic.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "celery",
+    "library": "simple-icons/simple-icons",
+    "commit": "1089fb7d2bf0e323f834c205ab76265005a6d5e8",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/celery.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "langgraph",
+    "library": "simple-icons/simple-icons",
+    "commit": "1089fb7d2bf0e323f834c205ab76265005a6d5e8",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/langgraph.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "ollama",
+    "library": "simple-icons/simple-icons",
+    "commit": "1089fb7d2bf0e323f834c205ab76265005a6d5e8",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/ollama.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "googlegemini",
+    "library": "simple-icons/simple-icons",
+    "commit": "1089fb7d2bf0e323f834c205ab76265005a6d5e8",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/googlegemini.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "openrouter",
+    "library": "simple-icons/simple-icons",
+    "commit": "1089fb7d2bf0e323f834c205ab76265005a6d5e8",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/openrouter.svg",
+    "status": "ok"
+  },
+  {
+    "slug": "tavily",
+    "library": "Tavily official website",
+    "url": "https://www.tavily.com/logos/tavily-mark-black.svg",
+    "sha256": "320ef37b5a13331bee4d756c6aed45422e61e73a02816ac3a4768815f6ed5153",
+    "status": "ok"
+  }
+]

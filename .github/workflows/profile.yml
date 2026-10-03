@@ -1,0 +1,48 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_profile.py
+      - tests/test_update_profile.py
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'raghav-shell/raghav-shell' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check renderer and failure handling
+        run: python -m unittest discover -s tests -v
+      - name: Read public GitHub commits and render assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_profile.py
+      - name: Commit refreshed assets
+        run: |
+          git add assets/live/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh public profile activity'
+          git push

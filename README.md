@@ -1,21 +1,158 @@
-# 💫 About Me:
-About Me:-<br><br>🔭 I’m currently working on<br>Building AI-driven products and full-stack systems that solve real-world problems<br><br>👥 I’m looking to collaborate on<br>AI, cybersecurity, open-source and high-impact engineering projects<br><br>🤝 I’m looking for help with<br>Building scalable systems, advanced AI engineering and turning ambitious ideas into production-ready products<br><br>🌱 I’m currently learning<br>Artificial Intelligence, System Design, Cloud Computing, Cybersecurity and Post-Quantum Cryptography<br><br>💬 Ask me about<br>AI, full-stack engineering, hackathons, Git/GitHub and building products from scratch<br><br>⚡ Fun fact<br>I’m not just learning technology — I’m focused on mastering the ability to build with it.
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v5-light.svg"><img src="assets/profile-header-v5-light.svg" width="100%" alt="Hi, I’m Raghav. Thoughtful code, a little imagination. A smiling pixel computer, cat, greenery, and sunshine." /></picture>
+</p>
 
+<p align="center">
+  <b>A curious developer making useful things with a creative touch.</b><br>
+  Full-stack applications · AI workflows · International hackathons
+</p>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/raghav-sharma-in) 
+<p align="center">
+  <a href="#a-little-about-me">About me</a> &nbsp; · &nbsp;
+  <a href="#things-ive-been-building">My projects</a> &nbsp; · &nbsp;
+  <a href="#a-little-progress-lately">What’s new</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/">Say hello ↗</a>
+</p>
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![CloudBees](https://img.shields.io/badge/CloudBees-1997B5&?logo=cloudbees&logoColor=white&style=for-the-badge) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![Ubisoft](https://img.shields.io/badge/Ubisoft-%23F5F5F5.svg?style=for-the-badge&logo=Ubisoft&logoColor=black) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white) ![Xbox](https://img.shields.io/badge/xbox-%23107C10.svg?style=for-the-badge&logo=xbox&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=raghav-shell&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=raghav-shell&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=raghav-shell&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=raghav-shell&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## A little about me
 
----
-[![](https://komarev.com/ghpvc/?username=raghav-shell&icon=0&color=0)](https://visitcount.itsvg.in)
+I’m **Raghav Sharma**, a student developer from **India**, taking part in **international hackathons** and building with **TypeScript, React / Next.js, Python, and FastAPI**.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+I enjoy working across the whole experience: shaping an interface, connecting the API, and making the workflow understandable. My recent team contributions include **branding, frontend development, integration, and document processing**. I care about useful software that feels good to use—and looks like someone cared.
+
+> 🌱 **What I’m exploring:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
+
+## Things I’ve been building
+
+A little collection of things I’ve built and helped build. Pick a card to explore; open the notes for the engineering details.
+
+<p align="center">
+  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v5-light.svg"><img src="assets/project-aegis-v5-light.svg" width="400" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
+  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v5-light.svg"><img src="assets/project-visionx-v5-light.svg" width="400" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
+</p>
+
+<details>
+<summary><b>Inside Aegis &amp; VisionX · team projects and my contributions</b></summary>
+
+**[AEGIS](https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench)** brings local model inference, document retrieval, engineering calculations, verification, and human approvals into an industrial AI workbench. The repository implements Ollama inference and hybrid keyword/vector retrieval.
+
+**My contribution:** Aegis branding and vector identity; the workbench, task dispatcher, and security interface; frontend/backend integration; and scanned-PDF extraction with page-specific evidence and macOS sandbox memory handling. [Inspect my extraction and sandbox changes →](https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench/commit/74a8bf661e3cc75c571ed7b39576857f775e7129)
+
+**[VisionX](https://github.com/raghav-shell/VisionX)** is an offline assurance workspace for reviewing datasets, models, inference provenance, and drift. **My contribution:** visual identity, frontend architecture, the assessment workspace, and frontend API integration. [Product tour →](https://github.com/raghav-shell/VisionX#product-tour) · [Team contributions →](https://github.com/raghav-shell/VisionX#contributors)
+
+</details>
+
+<p align="center">
+  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v5-light.svg"><img src="assets/project-razorflow-v5-light.svg" width="400" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
+  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v5-light.svg"><img src="assets/project-competeiq-v5-light.svg" width="400" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
+</p>
+
+<details>
+<summary><b>Inside RazorFlow &amp; CompeteIQ · decisions, state, and background work</b></summary>
+
+**[RazorFlow](https://github.com/raghav-shell/RazorFlow)** explores failed-payment recovery in **Razorpay test mode**. AI suggests a strategy; deterministic policy decides what can execute. Signed webhook validation, deduplication, PostgreSQL persistence, Celery workers, and a hash-chained audit log connect the lifecycle. [Policy engine →](https://github.com/raghav-shell/RazorFlow/blob/master/backend/packages/domain/policy/engine.py) · [Concurrency tests →](https://github.com/raghav-shell/RazorFlow/blob/master/backend/tests/integration/test_execution_concurrency.py)
+
+**[CompeteIQ](https://github.com/raghav-shell/Compete_latest)** gathers competitor research with Tavily, compares saved snapshots, analyzes signals, and prepares reports through LangGraph. Its evaluator allows one additional research pass, and the project includes scheduled runs, Supabase persistence, and Slack/Notion integrations. [Evaluator →](https://github.com/raghav-shell/Compete_latest/blob/main/competewise_backend/competeiq/pipeline/analyst_report.py) · [Live interface, sign-in required →](https://competeiq-three.vercel.app/)
+
+</details>
+
+<p align="center">
+  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v5-light.svg"><img src="assets/project-lexguard-v5-light.svg" width="400" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
+  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v5-light.svg"><img src="assets/project-shell-v5-light.svg" width="400" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
+</p>
+
+<details>
+<summary><b>Inside Lexguard &amp; Os_Shell · applied AI and systems fundamentals</b></summary>
+
+**[Lexguard](https://github.com/raghav-shell/Lexguard)** extracts PDF/DOCX text, chunks it, and presents structured contract-risk summaries. Its active analysis path uses a unified prompt with Gemini-to-OpenRouter fallback. **It is a prototype; failed analysis can return demo data.** [Screenshots →](https://github.com/raghav-shell/Lexguard/tree/main/screenshots) · [Analysis implementation →](https://github.com/raghav-shell/Lexguard/blob/main/lexguard_backend/services/unified_analysis.py)
+
+**[Os_Shell](https://github.com/raghav-shell/Os_Shell)** is a Java shell built through the CodeCrafters challenge. It implements command parsing, PATH lookup, ProcessBuilder pipelines, output redirection, and background job tracking. [Read the implementation →](https://github.com/raghav-shell/Os_Shell/blob/master/src/main/java/Main.java)
+
+</details>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
+
+## A little progress lately
+
+Fresh little steps across my projects, pulled from public GitHub commits.
+
+<p align="center">
+  <a href="https://github.com/raghav-shell?tab=overview"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/live/activity-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/live/activity-dark.svg"><source media="(max-width: 600px)" srcset="assets/live/activity-mobile.svg"><img src="assets/live/activity.svg" width="100%" alt="Latest authored commits across my selected projects, with a visible snapshot timestamp." /></picture></a>
+</p>
+
+<details>
+<summary>About the live build log</summary>
+
+The card is generated from public GitHub commits attributed to `raghav-shell` on the default branches of six selected repositories. Its [GitHub Action](.github/workflows/profile.yml) refreshes it daily and on manual dispatch. A visible timestamp shows the snapshot’s age; if the API is unavailable, the previous snapshot is kept. GitHub scheduling and image caching can delay updates.
+
+[Snapshot and commit links](assets/live/snapshot.json) · [Refresh implementation](scripts/update_profile.py)
+
+</details>
+
+## Tools I reach for
+
+**For interfaces** · TypeScript, React, Next.js, Tailwind CSS, Vite  
+**For APIs & data** · Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery  
+**For AI workflows** · LangGraph, Ollama integration, Gemini, OpenRouter, Tavily  
+**For building & checking** · Git, Docker Compose, pytest · Java for my shell project
+
+## Tech stack
+
+The technologies behind my projects, collected in one place.
+
+**Interfaces**
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/typescript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/typescript-light.svg"><img src="assets/stack/typescript-light.svg" width="96" alt="TypeScript logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/react-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/react-light.svg"><img src="assets/stack/react-light.svg" width="96" alt="React logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/nextjs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/nextjs-light.svg"><img src="assets/stack/nextjs-light.svg" width="96" alt="Next.js logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tailwindcss-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tailwindcss-light.svg"><img src="assets/stack/tailwindcss-light.svg" width="96" alt="Tailwind CSS logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/vitejs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/vitejs-light.svg"><img src="assets/stack/vitejs-light.svg" width="96" alt="Vite logo" /></picture>
+</p>
+
+**APIs & data**
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/python-light.svg"><img src="assets/stack/python-light.svg" width="96" alt="Python logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/fastapi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/fastapi-light.svg"><img src="assets/stack/fastapi-light.svg" width="96" alt="FastAPI logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/pydantic-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/pydantic-light.svg"><img src="assets/stack/pydantic-light.svg" width="96" alt="Pydantic logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/postgresql-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/postgresql-light.svg"><img src="assets/stack/postgresql-light.svg" width="96" alt="PostgreSQL logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/sqlalchemy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/sqlalchemy-light.svg"><img src="assets/stack/sqlalchemy-light.svg" width="96" alt="SQLAlchemy logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/sqlite-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/sqlite-light.svg"><img src="assets/stack/sqlite-light.svg" width="96" alt="SQLite logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/redis-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/redis-light.svg"><img src="assets/stack/redis-light.svg" width="96" alt="Redis logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/celery-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/celery-light.svg"><img src="assets/stack/celery-light.svg" width="96" alt="Celery logo" /></picture>
+</p>
+
+**AI workflows**
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/langgraph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/langgraph-light.svg"><img src="assets/stack/langgraph-light.svg" width="96" alt="LangGraph logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/ollama-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/ollama-light.svg"><img src="assets/stack/ollama-light.svg" width="96" alt="Ollama logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/googlegemini-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/googlegemini-light.svg"><img src="assets/stack/googlegemini-light.svg" width="96" alt="Gemini logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/openrouter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/openrouter-light.svg"><img src="assets/stack/openrouter-light.svg" width="96" alt="OpenRouter logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tavily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tavily-light.svg"><img src="assets/stack/tavily-light.svg" width="96" alt="Tavily logo" /></picture>
+</p>
+
+**Build & check**
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/git-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/git-light.svg"><img src="assets/stack/git-light.svg" width="96" alt="Git logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/docker-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/docker-light.svg"><img src="assets/stack/docker-light.svg" width="96" alt="Docker Compose logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/pytest-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/pytest-light.svg"><img src="assets/stack/pytest-light.svg" width="96" alt="pytest logo" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/java-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/java-light.svg"><img src="assets/stack/java-light.svg" width="96" alt="Java logo" /></picture>
+</p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v5-light.svg"><img src="assets/connect-v5-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><b>Say hello on LinkedIn ↗</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/raghav-shell?tab=repositories">Explore more projects ↗</a>
+</p>
+
+<p align="center"><sub>Thanks for stopping by. Hope something here made you smile. :)</sub></p>
