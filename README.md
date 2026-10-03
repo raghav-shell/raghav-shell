@@ -113,6 +113,24 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 
 </details>
 
+<!-- FIREFLY_GARDEN_START -->
+<a name="firefly-trail"></a>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/garden-mobile-dark.svg?day=2026-10-04"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/garden-dark.svg?day=2026-10-04"><source media="(max-width: 600px)" srcset="assets/contributions/garden-mobile-light.svg?day=2026-10-04"><img src="assets/contributions/garden-light.svg?day=2026-10-04" width="100%" alt="Firefly Trail: a blue pixel cat follows a golden firefly through my real contribution garden. 87 contributions from 2025-10-05 to 2026-10-04; mobile shows the latest 13 calendar weeks." /></picture>
+</p>
+<!-- FIREFLY_GARDEN_END -->
+
+<details>
+<summary>A little about the firefly’s trail</summary>
+
+An original **pixel-cat and firefly animation**, grown from my publicly visible GitHub contribution calendar. The desktop garden shows a rolling year; mobile shows the latest **13 calendar weeks** with its own count. Green shades preserve GitHub’s activity levels; the firefly adds a passing golden glow to active days. Quiet days stay quiet.
+
+The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork around **08:53 IST**. The date range shows its age; a failed fetch keeps the last good garden. Motion pauses for visitors who prefer reduced motion.
+
+[Explore the calendar](https://github.com/raghav-shell?tab=overview) · [Garden data](assets/contributions/snapshot.json) · [How it grows](scripts/update_garden.py)
+
+</details>
+
 <a name="tools-i-reach-for"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-tools-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-tools-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-tools-v7-mobile-light.svg"><img src="assets/heading-tools-v7-light.svg" width="100%" alt="Tools I reach for" /></picture></h2>
 
