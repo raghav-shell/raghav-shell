@@ -28,6 +28,22 @@ I build with **TypeScript, React / Next.js, Python, and FastAPI**. I care about 
 > [!NOTE]
 > **Growing my toolkit:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
 
+<!-- RAGHAV_FACT_START -->
+<a name="raghav-fact-of-the-day"></a>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-10-04"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-10-04"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-10-04"><img src="assets/facts/fact-light.svg?day=2026-10-04" width="100%" alt="Raghav Fact of the Day, 2026-10-04 IST. Playful developer joke: Raghav has 47 browser tabs open. Every single one is ‘the important one’." /></picture>
+</p>
+<!-- RAGHAV_FACT_END -->
+
+<details>
+<summary>A little about the daily grin</summary>
+
+A shuffled collection of **32 lighthearted, fictional developer jokes**, starring Raghav. The [daily GitHub Action](.github/workflows/facts.yml) rotates the card around **08:49 IST**; its date shows which day’s joke is displayed. GitHub scheduling and image caching can delay updates.
+
+[Read all the jokes](data/raghav-facts.json) · [Today’s joke](assets/facts/fact.json) · [How it rotates](scripts/update_fact.py)
+
+</details>
+
 <a name="things-ive-been-building"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-projects-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-projects-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-projects-v7-mobile-light.svg"><img src="assets/heading-projects-v7-light.svg" width="100%" alt="Things I’ve been building" /></picture></h2>
 

@@ -1,19 +1,20 @@
-name: Refresh profile
-
+name: Refresh daily Raghav fact
 on:
   schedule:
-    - cron: '17 3 * * *'
+    - cron: '19 3 * * *' # 08:49 IST, daily
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - scripts/update_profile.py
-      - tests/test_update_profile.py
-      - .github/workflows/profile.yml
+      - scripts/update_fact.py
+      - data/raghav-facts.json
+      - tests/test_update_fact.py
+      - .github/workflows/facts.yml
 
 permissions:
   contents: read
 
+# Share the writer lock with the existing activity refresher.
 concurrency:
   group: profile-refresh
   cancel-in-progress: false
@@ -32,19 +33,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check renderer and failure handling
+      - name: Check daily rotation and safe rendering
         run: python -m unittest discover -s tests -v
-      - name: Read public GitHub commits and render assets
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: python scripts/update_profile.py
-      - name: Commit refreshed assets
+      - name: Rotate the daily joke
+        run: python scripts/update_fact.py
+      - name: Commit the daily grin
         run: |
-          git add assets/live/
+          git add README.md assets/facts/
           if git diff --cached --quiet; then
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: refresh public profile activity'
+          git commit -m 'chore: refresh daily Raghav fact'
           git push
