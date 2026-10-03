@@ -116,7 +116,7 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 <!-- FIREFLY_GARDEN_START -->
 <a name="firefly-trail"></a>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/garden-mobile-dark.svg?day=2026-10-04"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/garden-dark.svg?day=2026-10-04"><source media="(max-width: 600px)" srcset="assets/contributions/garden-mobile-light.svg?day=2026-10-04"><img src="assets/contributions/garden-light.svg?day=2026-10-04" width="100%" alt="Firefly Trail: a blue pixel cat follows a golden firefly through my real contribution garden. 87 contributions from 2025-10-05 to 2026-10-04; mobile shows the latest 13 calendar weeks." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/garden-mobile-dark.svg?day=2026-10-04"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/garden-dark.svg?day=2026-10-04"><source media="(max-width: 600px)" srcset="assets/contributions/garden-mobile-light.svg?day=2026-10-04"><img src="assets/contributions/garden-light.svg?day=2026-10-04" width="100%" alt="Firefly Trail: a blue pixel cat follows a golden firefly through my real contribution garden. 88 contributions from 2025-10-05 to 2026-10-04; mobile shows the latest 13 calendar weeks." /></picture>
 </p>
 <!-- FIREFLY_GARDEN_END -->
 
