@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f8fc">
+  <meta name="description" content="A tiny, cozy matching game in Raghav’s pixel garden. Find four pairs and leave with a little smile.">
+  <title>Garden Pairs · Raghav’s little internet garden</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="game.mjs"></script>
+</head>
+<body>
+  <svg class="art-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="cat" viewBox="0 0 64 64">
+      <path d="M10 8H20V14H44V8H54V42H48V54H40V48H24V54H16V42H10Z" fill="var(--cat-fill)" stroke="var(--art-ink)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M16 14H20V20H16ZM44 14H48V20H44Z" fill="#f5d182"/><rect x="20" y="27" width="4" height="6" fill="var(--art-ink)"/><rect x="40" y="27" width="4" height="6" fill="var(--art-ink)"/>
+      <path d="M29 35H35L32 39Z" fill="#d8ad57"/><path d="M24 39L28 42H36L40 39" fill="none" stroke="var(--art-ink)" stroke-width="2"/>
+    </symbol>
+    <symbol id="sun" viewBox="0 0 64 64">
+      <path d="M25 4H39V10H49V16H55V26H61V39H55V49H49V55H39V61H25V55H15V49H9V39H3V26H9V16H15V10H25Z" fill="#f5d182"/>
+      <rect x="21" y="24" width="5" height="7" rx="2" fill="#806535"/><rect x="39" y="24" width="5" height="7" rx="2" fill="#806535"/><path d="M23 38Q32 48 41 38" fill="none" stroke="#806535" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="sprout" viewBox="0 0 64 64">
+      <path d="M31 41V20" stroke="var(--art-ink)" stroke-width="3"/><path d="M31 28Q10 30 8 10Q29 8 31 28ZM31 36Q53 38 56 18Q34 17 31 36Z" fill="#8bceb2" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M17 40H47L43 59H21Z" fill="#deb37d" stroke="var(--art-ink)" stroke-width="2"/><path d="M16 40H48V46H16Z" fill="#efc899" stroke="var(--art-ink)" stroke-width="2"/>
+    </symbol>
+    <symbol id="star" viewBox="0 0 64 64">
+      <path d="M32 3L39 24L60 31L39 38L32 60L25 38L4 31L25 24Z" fill="var(--cat-fill)" stroke="var(--art-ink)" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M24 30H27M37 30H40M29 36Q32 39 35 36" fill="none" stroke="var(--art-ink)" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+  </defs></svg>
+  <main class="garden">
+    <header class="window-bar">
+      <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <a href="https://github.com/raghav-shell">raghav’s little internet garden</a>
+      <button id="theme" class="theme-button" aria-label="Switch color theme" title="Switch color theme">◐</button>
+    </header>
+    <div class="game-content">
+      <div class="intro">
+        <div class="eyebrow">A TINY BREAK FOR YOUR BRAIN</div>
+        <h1>Garden Pairs<span aria-hidden="true">.</span></h1>
+        <p>Find four matching pairs.<br>A little sunshine, a little curiosity, a little win.</p>
+        <svg class="hello-cat" aria-hidden="true"><use href="#cat"></use></svg>
+      </div>
+      <div class="stats" aria-label="Game progress">
+        <div><span>Moves</span><strong id="moves">0</strong></div>
+        <div><span>Pairs found</span><strong id="pairs">0 <small>/ 4</small></strong></div>
+        <div><span>Your best</span><strong id="best">—</strong></div>
+      </div>
+      <section id="board" class="board" aria-label="Eight matching cards"></section>
+      <noscript><p class="no-script">Turn on JavaScript to play this little game.</p></noscript>
+      <div id="message" class="message" role="status" aria-live="polite" aria-atomic="true">Pick any two cards. Let’s see what grows.</div>
+      <div class="actions"><button id="restart" class="restart">Shuffle &amp; play again <span aria-hidden="true">↻</span></button><span>No rush. Just a little fun.</span></div>
+      <footer><a href="https://github.com/raghav-shell">Back to Raghav’s profile ↗</a><span>A small game, made with a little care.</span></footer>
+    </div>
+  </main>
+</body>
+</html>
