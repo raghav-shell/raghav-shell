@@ -1,8 +1,11 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v6-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v6-light.svg"><img src="assets/profile-header-v6-light.svg" width="100%" alt="Hi, I’m Raghav. Thoughtful code, a little imagination. A smiling pixel computer, cat, greenery, and sunshine." /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v5-light.svg"><img src="assets/profile-header-v5-light.svg" width="100%" alt="Hi, I’m Raghav. Thoughtful code, a little imagination. A smiling pixel computer, cat, greenery, and sunshine." /></picture>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-v6-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/intro-v6-dark.svg"><source media="(max-width: 600px)" srcset="assets/intro-v6-mobile-light.svg"><img src="assets/intro-v6-light.svg" width="100%" alt="Build, learn, repeat. Making useful things with a creative touch; connecting interfaces to real workflows; exploring local AI and agents." /></picture></p>
+<p align="center">
+  <b>A curious developer making useful things with a creative touch.</b><br>
+  Full-stack applications · AI workflows · International hackathons
+</p>
 
 <p align="center">
   <a href="#a-little-about-me">About me</a> &nbsp; · &nbsp;
@@ -11,27 +14,19 @@
   <a href="https://www.linkedin.com/in/raghav-sharma-in/">Say hello ↗</a>
 </p>
 
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
 
+## A little about me
 
-<a name="a-little-about-me"></a>
+I’m **Raghav Sharma**, a student developer from **India**, taking part in **international hackathons** and building with **TypeScript, React / Next.js, Python, and FastAPI**.
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-about-v6-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-about-v6-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-about-v6-mobile-light.svg"><img src="assets/heading-about-v6-light.svg" width="100%" alt="A little about me" /></picture></h2>
+I enjoy working across the whole experience: shaping an interface, connecting the API, and making the workflow understandable. My recent team contributions include **branding, frontend development, integration, and document processing**. I care about useful software that feels good to use—and looks like someone cared.
 
-I’m **Raghav Sharma**, a student developer from **India**. I build full-stack applications, explore practical AI, and take part in **international hackathons**.
+> 🌱 **What I’m exploring:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
 
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-build-v6-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-build-v6-light.svg"><img src="assets/about-build-v6-light.svg" width="280" alt="I build full-stack applications, interfaces, and API workflows." /></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-care-v6-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-care-v6-light.svg"><img src="assets/about-care-v6-light.svg" width="280" alt="I care about thoughtful interfaces and clear, useful behaviour." /></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-explore-v6-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-explore-v6-light.svg"><img src="assets/about-explore-v6-light.svg" width="280" alt="I’m exploring local AI, agents, and document workflows." /></picture>
-</p>
+## Things I’ve been building
 
-My recent team contributions span branding, frontend development, API integration, and document processing.
-
-<a name="things-ive-been-building"></a>
-
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-projects-v6-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-projects-v6-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-projects-v6-mobile-light.svg"><img src="assets/heading-projects-v6-light.svg" width="100%" alt="Things I’ve been building" /></picture></h2>
-
-A selection of personal and team projects. Each card opens its repository; the notes explain the engineering and my contributions.
+A little collection of things I’ve built and helped build. Pick a card to explore; open the notes for the engineering details.
 
 <p align="center">
   <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v5-light.svg"><img src="assets/project-aegis-v5-light.svg" width="400" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
@@ -39,7 +34,7 @@ A selection of personal and team projects. Each card opens its repository; the n
 </p>
 
 <details>
-<summary><b>AEGIS + VisionX · contribution notes</b></summary>
+<summary><b>Inside Aegis &amp; VisionX · team projects and my contributions</b></summary>
 
 **[AEGIS](https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench)** brings local model inference, document retrieval, engineering calculations, verification, and human approvals into an industrial AI workbench. The repository implements Ollama inference and hybrid keyword/vector retrieval.
 
@@ -55,7 +50,7 @@ A selection of personal and team projects. Each card opens its repository; the n
 </p>
 
 <details>
-<summary><b>RazorFlow + CompeteIQ · implementation notes</b></summary>
+<summary><b>Inside RazorFlow &amp; CompeteIQ · decisions, state, and background work</b></summary>
 
 **[RazorFlow](https://github.com/raghav-shell/RazorFlow)** explores failed-payment recovery in **Razorpay test mode**. AI suggests a strategy; deterministic policy decides what can execute. Signed webhook validation, deduplication, PostgreSQL persistence, Celery workers, and a hash-chained audit log connect the lifecycle. [Policy engine →](https://github.com/raghav-shell/RazorFlow/blob/master/backend/packages/domain/policy/engine.py) · [Concurrency tests →](https://github.com/raghav-shell/RazorFlow/blob/master/backend/tests/integration/test_execution_concurrency.py)
 
@@ -69,7 +64,7 @@ A selection of personal and team projects. Each card opens its repository; the n
 </p>
 
 <details>
-<summary><b>Lexguard + Os_Shell · implementation notes</b></summary>
+<summary><b>Inside Lexguard &amp; Os_Shell · applied AI and systems fundamentals</b></summary>
 
 **[Lexguard](https://github.com/raghav-shell/Lexguard)** extracts PDF/DOCX text, chunks it, and presents structured contract-risk summaries. Its active analysis path uses a unified prompt with Gemini-to-OpenRouter fallback. **It is a prototype; failed analysis can return demo data.** [Screenshots →](https://github.com/raghav-shell/Lexguard/tree/main/screenshots) · [Analysis implementation →](https://github.com/raghav-shell/Lexguard/blob/main/lexguard_backend/services/unified_analysis.py)
 
@@ -77,13 +72,11 @@ A selection of personal and team projects. Each card opens its repository; the n
 
 </details>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v6-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v6-light.svg"><img src="assets/garden-v6-light.svg" width="100%" alt="" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
 
-<a name="a-little-progress-lately"></a>
+## A little progress lately
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-progress-v6-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-progress-v6-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-progress-v6-mobile-light.svg"><img src="assets/heading-progress-v6-light.svg" width="100%" alt="A little progress lately" /></picture></h2>
-
-Recent public commits across my projects, refreshed daily.
+Fresh little steps across my projects, pulled from public GitHub commits.
 
 <p align="center">
   <a href="https://github.com/raghav-shell?tab=overview"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/live/activity-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/live/activity-dark.svg"><source media="(max-width: 600px)" srcset="assets/live/activity-mobile.svg"><img src="assets/live/activity.svg" width="100%" alt="Latest authored commits across my selected projects, with a visible snapshot timestamp." /></picture></a>
@@ -98,20 +91,16 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 
 </details>
 
-<a name="tools-i-reach-for"></a>
-
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-tools-v6-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-tools-v6-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-tools-v6-mobile-light.svg"><img src="assets/heading-tools-v6-light.svg" width="100%" alt="Tools I reach for" /></picture></h2>
+## Tools I reach for
 
 **For interfaces** · TypeScript, React, Next.js, Tailwind CSS, Vite  
 **For APIs & data** · Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery  
 **For AI workflows** · LangGraph, Ollama integration, Gemini, OpenRouter, Tavily  
 **For building & checking** · Git, Docker Compose, pytest · Java for my shell project
 
-<a name="tech-stack"></a>
+## Tech stack
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-stack-v6-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-stack-v6-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-stack-v6-mobile-light.svg"><img src="assets/heading-stack-v6-light.svg" width="100%" alt="Tech stack" /></picture></h2>
-
-The technologies behind the projects above.
+The technologies behind my projects, collected in one place.
 
 **Interfaces**
 
@@ -155,7 +144,7 @@ The technologies behind the projects above.
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/java-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/java-light.svg"><img src="assets/stack/java-light.svg" width="96" alt="Java logo" /></picture>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v6-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v6-light.svg"><img src="assets/garden-v6-light.svg" width="100%" alt="" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v5-light.svg"><img src="assets/garden-v5-light.svg" width="100%" alt="" /></picture></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v5-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v5-light.svg"><img src="assets/connect-v5-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
