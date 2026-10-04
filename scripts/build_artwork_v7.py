@@ -126,6 +126,9 @@ def companions(theme):
     (ASSETS / f'garden-v7-{theme}.svg').write_text(raw)
     for slug in ['aegis', 'visionx', 'razorflow', 'competeiq', 'lexguard', 'shell']:
         root = ET.parse(ASSETS / f'project-{slug}-v5-{theme}.svg').getroot()
+        # Transparent gutters give wrapped cards breathing room on GitHub too.
+        root.set('height', '324')
+        root.set('viewBox', '0 -12 600 324')
         g = list(root)[1]
         style = ET.Element(NS + 'style')
         style.text = '.project-mark{animation:drift 6s ease-in-out infinite}@keyframes drift{50%{transform:translateY(-5px)}}@media(prefers-reduced-motion:reduce){.project-mark{animation:none}}'

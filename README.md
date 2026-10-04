@@ -16,6 +16,8 @@
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
+<br />
+
 <a name="a-little-about-me"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-about-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-about-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-about-v7-mobile-light.svg"><img src="assets/heading-about-v7-light.svg" width="100%" alt="A little about me" /></picture></h2>
 
@@ -27,6 +29,8 @@ I build with **TypeScript, React / Next.js, Python, and FastAPI**. I care about 
 
 > [!NOTE]
 > **Growing my toolkit:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
+
+<br />
 
 <!-- RAGHAV_FACT_START -->
 <a name="raghav-fact-of-the-day"></a>
@@ -44,14 +48,17 @@ A shuffled collection of **32 lighthearted, fictional developer jokes**, starrin
 
 </details>
 
+<br />
+
 <a name="things-ive-been-building"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-projects-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-projects-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-projects-v7-mobile-light.svg"><img src="assets/heading-projects-v7-light.svg" width="100%" alt="Things I’ve been building" /></picture></h2>
 
 **Small ideas, real projects.** Pick a card to explore the repository; open its notes for the engineering and my contributions.
 
 <p align="center">
-  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v7-light.svg"><img src="assets/project-aegis-v7-light.svg" width="400" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
-  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v7-light.svg"><img src="assets/project-visionx-v7-light.svg" width="400" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
+  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v7-light.svg"><img src="assets/project-aegis-v7-light.svg" width="390" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v7-light.svg"><img src="assets/project-visionx-v7-light.svg" width="390" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
 </p>
 
 <details>
@@ -65,9 +72,12 @@ A shuffled collection of **32 lighthearted, fictional developer jokes**, starrin
 
 </details>
 
+<br />
+
 <p align="center">
-  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v7-light.svg"><img src="assets/project-razorflow-v7-light.svg" width="400" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
-  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v7-light.svg"><img src="assets/project-competeiq-v7-light.svg" width="400" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
+  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v7-light.svg"><img src="assets/project-razorflow-v7-light.svg" width="390" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v7-light.svg"><img src="assets/project-competeiq-v7-light.svg" width="390" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
 </p>
 
 <details>
@@ -79,9 +89,12 @@ A shuffled collection of **32 lighthearted, fictional developer jokes**, starrin
 
 </details>
 
+<br />
+
 <p align="center">
-  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v7-light.svg"><img src="assets/project-lexguard-v7-light.svg" width="400" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
-  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v7-light.svg"><img src="assets/project-shell-v7-light.svg" width="400" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
+  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v7-light.svg"><img src="assets/project-lexguard-v7-light.svg" width="390" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v7-light.svg"><img src="assets/project-shell-v7-light.svg" width="390" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
 </p>
 
 <details>
@@ -94,6 +107,8 @@ A shuffled collection of **32 lighthearted, fictional developer jokes**, starrin
 </details>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
+
+<br />
 
 <a name="a-little-progress-lately"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-progress-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-progress-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-progress-v7-mobile-light.svg"><img src="assets/heading-progress-v7-light.svg" width="100%" alt="A little progress lately" /></picture></h2>
@@ -112,6 +127,8 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 [Snapshot and commit links](assets/live/snapshot.json) · [Refresh implementation](scripts/update_profile.py)
 
 </details>
+
+<br />
 
 <!-- FIREFLY_GARDEN_START -->
 <a name="contribution-surf"></a>
@@ -134,13 +151,20 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 
 </details>
 
+<br />
+
 <a name="tools-i-reach-for"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-tools-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-tools-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-tools-v7-mobile-light.svg"><img src="assets/heading-tools-v7-light.svg" width="100%" alt="Tools I reach for" /></picture></h2>
 
-**For interfaces** · TypeScript, React, Next.js, Tailwind CSS, Vite  
-**For APIs & data** · Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery  
-**For AI workflows** · LangGraph, Ollama integration, Gemini, OpenRouter, Tavily  
+**For interfaces** · TypeScript, React, Next.js, Tailwind CSS, Vite
+
+**For APIs & data** · Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery
+
+**For AI workflows** · LangGraph, Ollama integration, Gemini, OpenRouter, Tavily
+
 **For building & checking** · Git, Docker Compose, pytest · Java for my shell project
+
+<br />
 
 <a name="tech-stack"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-stack-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-stack-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-stack-v7-mobile-light.svg"><img src="assets/heading-stack-v7-light.svg" width="100%" alt="Tech stack" /></picture></h2>
@@ -151,43 +175,69 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/typescript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/typescript-light.svg"><img src="assets/stack/typescript-light.svg" width="96" alt="TypeScript logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/react-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/react-light.svg"><img src="assets/stack/react-light.svg" width="96" alt="React logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/nextjs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/nextjs-light.svg"><img src="assets/stack/nextjs-light.svg" width="96" alt="Next.js logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tailwindcss-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tailwindcss-light.svg"><img src="assets/stack/tailwindcss-light.svg" width="96" alt="Tailwind CSS logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/vitejs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/vitejs-light.svg"><img src="assets/stack/vitejs-light.svg" width="96" alt="Vite logo" /></picture>
 </p>
+
+<br />
 
 **🗃️ APIs & data**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/python-light.svg"><img src="assets/stack/python-light.svg" width="96" alt="Python logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/fastapi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/fastapi-light.svg"><img src="assets/stack/fastapi-light.svg" width="96" alt="FastAPI logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/pydantic-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/pydantic-light.svg"><img src="assets/stack/pydantic-light.svg" width="96" alt="Pydantic logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/postgresql-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/postgresql-light.svg"><img src="assets/stack/postgresql-light.svg" width="96" alt="PostgreSQL logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/sqlalchemy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/sqlalchemy-light.svg"><img src="assets/stack/sqlalchemy-light.svg" width="96" alt="SQLAlchemy logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/sqlite-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/sqlite-light.svg"><img src="assets/stack/sqlite-light.svg" width="96" alt="SQLite logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/redis-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/redis-light.svg"><img src="assets/stack/redis-light.svg" width="96" alt="Redis logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/celery-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/celery-light.svg"><img src="assets/stack/celery-light.svg" width="96" alt="Celery logo" /></picture>
 </p>
+
+<br />
 
 **✦ AI workflows**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/langgraph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/langgraph-light.svg"><img src="assets/stack/langgraph-light.svg" width="96" alt="LangGraph logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/ollama-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/ollama-light.svg"><img src="assets/stack/ollama-light.svg" width="96" alt="Ollama logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/googlegemini-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/googlegemini-light.svg"><img src="assets/stack/googlegemini-light.svg" width="96" alt="Gemini logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/openrouter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/openrouter-light.svg"><img src="assets/stack/openrouter-light.svg" width="96" alt="OpenRouter logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tavily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tavily-light.svg"><img src="assets/stack/tavily-light.svg" width="96" alt="Tavily logo" /></picture>
 </p>
+
+<br />
 
 **🛠️ Build & check**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/git-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/git-light.svg"><img src="assets/stack/git-light.svg" width="96" alt="Git logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/docker-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/docker-light.svg"><img src="assets/stack/docker-light.svg" width="96" alt="Docker Compose logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/pytest-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/pytest-light.svg"><img src="assets/stack/pytest-light.svg" width="96" alt="pytest logo" /></picture>
+  &nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/java-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/java-light.svg"><img src="assets/stack/java-light.svg" width="96" alt="Java logo" /></picture>
 </p>
+
+<br />
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
@@ -196,6 +246,8 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 </p>
 
 <p align="center"><a href="https://raghav-shell.github.io/raghav-shell/game/"><b>Play a little Garden Pairs ↗</b></a> · Eight cards. Four pairs. No rush.</p>
+
+<br />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v7-light.svg"><img src="assets/connect-v7-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
@@ -206,6 +258,8 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
   <a href="https://github.com/raghav-shell?tab=repositories">Explore more projects ↗</a>
 </p>
 
+<br />
+
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/garden-base-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/garden-base-dark.svg"><source media="(max-width: 600px)" srcset="assets/garden-base-mobile-light.svg"><img src="assets/garden-base-light.svg" width="100%" alt="Thanks for stopping by. Hope something here made you smile. A blue pixel cat and warm lantern rest on a garden platform, beside a sign reading: see you in the next build." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/garden-base-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/garden-base-dark.svg"><source media="(max-width: 600px)" srcset="assets/garden-base-mobile-light.svg"><img src="assets/garden-base-light.svg" width="100%" alt="Thanks for stopping by. Hope something here made you smile. A waving blue pixel cat, warm lantern, trees, flowers and a gently rippling pond close the garden, beside a sign reading: see you in the next build." /></picture>
 </p>
