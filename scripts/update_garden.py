@@ -1,4 +1,4 @@
-"""An original firefly-and-cat contribution garden, using GitHub's visible calendar.
+"""Contribution surf: animate the real calendar grid with a cat hoverboard.
 
 No token or third-party graph service required. Fetch and validate the complete
 rolling year before replacing anything; failed refreshes keep the last artwork.
@@ -15,8 +15,7 @@ import re
 import urllib.request
 from zoneinfo import ZoneInfo
 
-from build_artwork_v4 import cat, pixel, star, svg, text
-from build_artwork_v5 import recolour
+from contribution_surf import layout, render, section_heading
 
 ROOT = Path(__file__).resolve().parents[1]
 USER = 'raghav-shell'
@@ -103,100 +102,12 @@ def collect(day, documents=None):
             'total': sum(item['count'] for item in days), 'days': days}
 
 
-def layout(snapshot, mobile):
-    last = date.fromisoformat(snapshot['as_of'])
-    # Mobile displays 13 complete calendar columns; desktop displays the year.
-    sunday = last - timedelta(days=(last.weekday() + 1) % 7)
-    first = sunday - timedelta(weeks=12) if mobile else date.fromisoformat(snapshot['from'])
-    origin = first - timedelta(days=(first.weekday() + 1) % 7)
-    days = [item for item in snapshot['days'] if date.fromisoformat(item['date']) >= first]
-    columns = (last - origin).days // 7 + 1
-    pitch, size, gx, gy = (23, 17, 69, 162) if mobile else (16, 12, 76, 141)
-    cells = []
-    for item in days:
-        day = date.fromisoformat(item['date'])
-        column, row = (day - origin).days // 7, (day.weekday() + 1) % 7
-        cells.append(dict(item, x=gx + column * pitch, y=gy + row * pitch, column=column))
-    # Traverse every week, pausing at its busiest day. Quiet weeks remain quiet.
-    route = []
-    for column in range(columns):
-        week = [cell for cell in cells if cell['column'] == column]
-        target = max(week, key=lambda cell: (cell['count'], cell['date']))
-        route.append((target['x'] + size / 2, target['y'] + size / 2))
-    return days, cells, route, (pitch, size, gx, gy, columns), first
-
-
-def render(snapshot, theme='light', mobile=False):
-    dark = theme == 'dark'
-    bg, panel, border = ('#101e2b', '#132b36', '#365469') if dark else ('#f2f8fc', '#e9f5ef', '#b8d0de')
-    ink, muted = ('#e1edf5', '#9fb8ca') if dark else ('#19364b', '#597487')
-    levels = ['#233b45', '#345f57', '#4d8f77', '#6cbaa0', '#9ee8c1'] if dark else ['#dbe8e5', '#b0d9c5', '#83bea1', '#559c7b', '#327b5c']
-    gold = '#ffda7a' if dark else '#b57718'
-    days, cells, route, (pitch, size, gx, gy, columns), first = layout(snapshot, mobile)
-    width, height = (400, 435) if mobile else (960, 397)
-    duration = 36 if mobile else 48
-    # Move out and back without a teleport at the loop boundary.
-    stops = route + route[-2:0:-1] + [route[0]]
-    frames = ''.join(f'{i / (len(stops) - 1) * 100:.4f}%{{transform:translate({x:g}px,{y:g}px)}}' for i, (x, y) in enumerate(stops))
-    count = sum(item['count'] for item in days)
-    period = f'{first:%d %b %Y} — {date.fromisoformat(snapshot["as_of"]):%d %b %Y}'
-    title = f'Firefly Trail. {count} contributions in the visible GitHub calendar, {period}. A blue cat follows a golden firefly through the contribution garden.'
-    s = f'''<defs><linearGradient id="name"><stop stop-color="{ink}"/><stop offset="1" stop-color="{'#9ee8c1' if dark else '#327b5c'}"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffdb7c" stop-opacity=".6"/><stop offset="1" stop-color="#ffdb7c" stop-opacity="0"/></radialGradient></defs>
-<style>.fly{{animation:journey {duration}s linear infinite}}.cat{{animation:journey {duration}s linear infinite;animation-delay:-{duration-0.8}s}}.wings{{animation:wings 1s ease-in-out infinite}}.halo{{animation:breathe 3s ease-in-out infinite}}.bloom{{animation:bloom {duration}s ease-in-out infinite}}@keyframes journey{{{frames}}}@keyframes wings{{50%{{opacity:.4}}}}@keyframes breathe{{50%{{opacity:.5}}}}@keyframes bloom{{0%,3%,97%,100%{{opacity:0}}1.5%{{opacity:.85}}}}@media(prefers-reduced-motion:reduce){{.fly,.cat,.wings,.halo,.bloom{{animation:none}}.bloom{{opacity:0}}}}</style>
-<rect x="2" y="2" width="{width-4}" height="{height-4}" rx="20" fill="{bg}" stroke="{border}" stroke-width="1.5"/>
-'''
-    s += text(25, 31, 'A LITTLE LIGHT, EVERY DAY', 10 if mobile else 11, muted, 650, 'letter-spacing="1.5"')
-    s += text(24, 70, 'Firefly Trail', 30 if mobile else 33, 'url(#name)', 750, 'letter-spacing="-.8"')
-    s += text(25, 96, 'My commits have a tiny night-shift companion.', 13 if mobile else 16, muted)
-    if not mobile:
-        s += text(925, 43, f'{count} contributions', 17, ink, 650, 'text-anchor="end"')
-        s += text(925, 67, 'the last 365 days', 12, muted, 400, 'text-anchor="end"')
-    else:
-        s += text(25, 125, f'{count} contributions · the latest 13 weeks', 13, ink, 600)
-    # Recessed chart panel, enough room for the travelling companion below it.
-    s += f'<rect x="18" y="{gy-29}" width="{width-36}" height="{pitch*7+60}" rx="13" fill="{panel}"/>'
-    for row, label in [(1, 'Mon'), (3, 'Wed'), (5, 'Fri')]:
-        s += text(29, gy + row * pitch + size - 2, label, 10, muted)
-    previous_month = None
-    for cell in cells:
-        day = date.fromisoformat(cell['date'])
-        if day.month != previous_month and (day.day <= 7 or previous_month is None):
-            if cell['column'] < columns - 1:
-                s += text(cell['x'], gy-10, day.strftime('%b'), 10, muted)
-            previous_month = day.month
-        label = f'{cell["date"]}: {cell["count"]} contributions'
-        s += f'<rect x="{cell["x"]}" y="{cell["y"]}" width="{size}" height="{size}" rx="3" fill="{levels[cell["level"]]}"><title>{label}</title></rect>'
-        if cell['count']:
-            # Light active squares as the firefly crosses their week, both directions.
-            visits = {cell['column'], len(stops)-1-cell['column']}
-            for visit in visits:
-                if visit == len(stops)-1:
-                    continue  # The loop's first visit already covers this point.
-                arrival = visit / (len(stops)-1) * duration
-                s += f'<rect class="bloom" style="animation-delay:{arrival-duration:.4f}s" x="{cell["x"]}" y="{cell["y"]}" width="{size}" height="{size}" rx="3" fill="#f6c85b" opacity="0"/>'
-    x, y = route[0]
-    s += f'<g class="cat" style="transform:translate({x:g}px,{y:g}px)"><g transform="translate(-24 12)">{recolour(cat(0,0,2), theme)}</g></g>'
-    s += f'<g class="fly" style="transform:translate({x:g}px,{y:g}px)"><circle class="halo" r="17" fill="url(#glow)"/><g class="wings" fill="{gold}" opacity=".65"><ellipse cx="-5" cy="-5" rx="4" ry="2" transform="rotate(25)"/><ellipse cx="5" cy="-5" rx="4" ry="2" transform="rotate(-25)"/></g>{star(-3,-3,1.2,gold)}</g>'
-    foot = 376 if mobile else 330
-    s += text(25, foot, 'quiet days', 10, muted)
-    for level in range(5):
-        s += f'<rect x="{88+level*18}" y="{foot-10}" width="12" height="12" rx="3" fill="{levels[level]}"/>'
-    s += text(184, foot, 'bright days', 10, muted)
-    if mobile:
-        s += text(25, 403, period, 11, muted)
-        s += text(25, 421, 'Real calendar. A little make-believe.', 10, muted)
-    else:
-        s += text(925, foot, period, 11, muted, 400, 'text-anchor="end"')
-        s += text(25, 367, 'Real calendar. A little make-believe. Follow the glow; the cat knows the way.', 13, muted)
-        s += pixel(['..g..','..g..','.ggg.','ggggg','..d..','..d..'], {'g': levels[3], 'd': gold}, 892, 349, 3)
-    return svg(width, height, title, s)
-
-
 def readme_block(snapshot):
     day = snapshot['as_of']
-    alt = escape(f'Firefly Trail: a blue pixel cat follows a golden firefly through my real contribution garden. {snapshot["total"]} contributions from {snapshot["from"]} to {day}; mobile shows the latest 13 calendar weeks.', quote=True)
+    alt = escape(f'Contribution surf: a blue pixel cat leans into hoverboard turns inside my real contribution grid, leaving a fading rainbow trail as nearby squares ripple and active squares glow. {snapshot["total"]} contributions from {snapshot["from"]} to {day}; mobile shows the latest 13 calendar weeks. Original activity levels and counts stay unchanged.', quote=True)
     return f'''{START}
-<a name="firefly-trail"></a>
+<a name="contribution-surf"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/heading-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/heading-dark.svg"><source media="(max-width: 600px)" srcset="assets/contributions/heading-mobile-light.svg"><img src="assets/contributions/heading-light.svg" width="100%" alt="Small steps, cosmic ripples" /></picture></h2>
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/garden-mobile-dark.svg?day={day}"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/garden-dark.svg?day={day}"><source media="(max-width: 600px)" srcset="assets/contributions/garden-mobile-light.svg?day={day}"><img src="assets/contributions/garden-light.svg?day={day}" width="100%" alt="{alt}" /></picture>
 </p>
@@ -211,6 +122,8 @@ def refresh(readme, output, day=None, documents=None):
     snapshot = collect(day, documents)
     rendered = {f'garden-{prefix}{theme}.svg': render(snapshot, theme, mobile)
                 for theme in ['light', 'dark'] for mobile, prefix in [(False, ''), (True, 'mobile-')]}
+    rendered.update({f'heading-{prefix}{theme}.svg': section_heading(theme, mobile)
+                     for theme in ['light', 'dark'] for mobile, prefix in [(False, ''), (True, 'mobile-')]})
     rendered['snapshot.json'] = json.dumps(snapshot, indent=2) + '\n'
     updated = body[:body.index(START)] + readme_block(snapshot) + body[body.index(END)+len(END):]
     # All fetches, validation, rendering and marker checks precede any writes.
@@ -237,7 +150,7 @@ def main():
         documents = {year: (args.calendar_dir / f'calendar-{year}.html').read_text()
                      for year in range((day-timedelta(days=364)).year, day.year+1)}
     snapshot = refresh(ROOT/'README.md', ROOT/'assets/contributions', day, documents)
-    print(f'Firefly Trail: {snapshot["total"]} contributions · {snapshot["from"]} to {day}')
+    print(f'Contribution surf: {snapshot["total"]} contributions · {snapshot["from"]} to {day}')
 
 
 if __name__ == '__main__':

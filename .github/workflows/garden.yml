@@ -1,4 +1,4 @@
-name: Refresh Firefly Trail
+name: Refresh contribution surf
 on:
   schedule:
     - cron: '23 3 * * *' # 08:53 IST, daily
@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - scripts/update_garden.py
+      - scripts/contribution_surf.py
       - scripts/build_artwork_v4.py
       - scripts/build_artwork_v5.py
       - tests/test_update_garden.py
@@ -45,5 +46,5 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: refresh contribution firefly garden'
+          git commit -m 'chore: refresh contribution surf'
           git push

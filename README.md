@@ -114,16 +114,19 @@ The card is generated from public GitHub commits attributed to `raghav-shell` on
 </details>
 
 <!-- FIREFLY_GARDEN_START -->
-<a name="firefly-trail"></a>
+<a name="contribution-surf"></a>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/heading-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/heading-dark.svg"><source media="(max-width: 600px)" srcset="assets/contributions/heading-mobile-light.svg"><img src="assets/contributions/heading-light.svg" width="100%" alt="Small steps, cosmic ripples" /></picture></h2>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/garden-mobile-dark.svg?day=2026-10-04"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/garden-dark.svg?day=2026-10-04"><source media="(max-width: 600px)" srcset="assets/contributions/garden-mobile-light.svg?day=2026-10-04"><img src="assets/contributions/garden-light.svg?day=2026-10-04" width="100%" alt="Firefly Trail: a blue pixel cat follows a golden firefly through my real contribution garden. 88 contributions from 2025-10-05 to 2026-10-04; mobile shows the latest 13 calendar weeks." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contributions/garden-mobile-dark.svg?day=2026-10-04"><source media="(prefers-color-scheme: dark)" srcset="assets/contributions/garden-dark.svg?day=2026-10-04"><source media="(max-width: 600px)" srcset="assets/contributions/garden-mobile-light.svg?day=2026-10-04"><img src="assets/contributions/garden-light.svg?day=2026-10-04" width="100%" alt="Contribution surf: a blue pixel cat leans into hoverboard turns inside my real contribution grid, leaving a fading rainbow trail as nearby squares ripple and active squares glow. 88 contributions from 2025-10-05 to 2026-10-04; mobile shows the latest 13 calendar weeks. Original activity levels and counts stay unchanged." /></picture>
 </p>
 <!-- FIREFLY_GARDEN_END -->
 
 <details>
-<summary>A little about the firefly’s trail</summary>
+<summary>About the animated contribution chart</summary>
 
-An original **pixel-cat and firefly animation**, grown from my publicly visible GitHub contribution calendar. The desktop garden shows a rolling year; mobile shows the latest **13 calendar weeks** with its own count. Green shades preserve GitHub’s activity levels; the firefly adds a passing golden glow to active days. Quiet days stay quiet.
+**Contribution surf** brings a little adventure into the chart: a blue cat leans into hoverboard turns, its tiny scarf catches the breeze, and a fading rainbow trail follows the ride. Nearby tiles lift in a gentle ripple; active days briefly gain a colourful outline. The underlying contribution counts and intensity colours stay unchanged.
+
+Desktop shows the rolling year; mobile shows the latest **13 calendar weeks** with its own count. The cat, trail and ripple are decorative, including movement through quiet weeks. Reduced motion displays a still, unobstructed chart.
 
 The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork around **08:53 IST**. The date range shows its age; a failed fetch keeps the last good garden. Motion pauses for visitors who prefer reduced motion.
 
@@ -203,4 +206,6 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
   <a href="https://github.com/raghav-shell?tab=repositories">Explore more projects ↗</a>
 </p>
 
-<p align="center"><sub>Thanks for stopping by. Hope something here made you smile. :)</sub></p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/garden-base-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/garden-base-dark.svg"><source media="(max-width: 600px)" srcset="assets/garden-base-mobile-light.svg"><img src="assets/garden-base-light.svg" width="100%" alt="Thanks for stopping by. Hope something here made you smile. A blue pixel cat and warm lantern rest on a garden platform, beside a sign reading: see you in the next build." /></picture>
+</p>
