@@ -1,15 +1,10 @@
 {
   "user": "raghav-shell",
-  "as_of": "2026-10-27",
-  "from": "2025-10-28",
+  "as_of": "2026-10-28",
+  "from": "2025-10-29",
   "source": "https://github.com/raghav-shell?tab=overview",
-  "total": 93,
+  "total": 101,
   "days": [
-    {
-      "date": "2025-10-28",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-10-29",
       "count": 0,
@@ -1827,8 +1822,13 @@
     },
     {
       "date": "2026-10-27",
-      "count": 1,
-      "level": 1
+      "count": 4,
+      "level": 4
+    },
+    {
+      "date": "2026-10-28",
+      "count": 5,
+      "level": 4
     }
   ]
 }
