@@ -35,7 +35,7 @@ I build with **TypeScript, React / Next.js, Python, and FastAPI**. I care about 
 <!-- RAGHAV_FACT_START -->
 <a name="raghav-fact-of-the-day"></a>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-12"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-12"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-12"><img src="assets/facts/fact-light.svg?day=2026-11-12" width="100%" alt="Raghav Fact of the Day, 2026-11-12 IST. Playful developer joke: Raghav’s code works on his machine. His machine requested diplomatic immunity." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-13"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-13"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-13"><img src="assets/facts/fact-light.svg?day=2026-11-13" width="100%" alt="Raghav Fact of the Day, 2026-11-13 IST. Playful developer joke: Raghav trusts the process. The process exited with code 1." /></picture>
 </p>
 <!-- RAGHAV_FACT_END -->
 
