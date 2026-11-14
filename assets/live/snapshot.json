@@ -1,6 +1,6 @@
 {
   "user": "raghav-shell",
-  "updated_at": "2026-11-13T10:55:02.977066+00:00",
+  "updated_at": "2026-11-14T10:20:38.205332+00:00",
   "source": "GitHub REST API: latest commit filtered by author on each repository's default branch",
   "projects": [
     {
@@ -32,24 +32,14 @@
       "name": "RazorFlow",
       "repo": "raghav-shell/RazorFlow",
       "color": "#fda4af",
-      "commit": {
-        "sha": "5546e0ca98ee1da26871600225ec278edfa03e84",
-        "url": "https://github.com/raghav-shell/RazorFlow/commit/5546e0ca98ee1da26871600225ec278edfa03e84",
-        "message": "chore: exclude internal strategy documents from public repository",
-        "authored_at": "2026-09-01T08:40:48Z"
-      }
+      "commit": null
     },
     {
       "slug": "competeiq",
       "name": "CompeteIQ",
       "repo": "raghav-shell/Compete_latest",
       "color": "#93c5fd",
-      "commit": {
-        "sha": "17bf68f347d527baa33c0d3ad95936e1cbd50b1d",
-        "url": "https://github.com/raghav-shell/Compete_latest/commit/17bf68f347d527baa33c0d3ad95936e1cbd50b1d",
-        "message": "docs: add premium readme with live demo link",
-        "authored_at": "2026-05-16T02:15:44Z"
-      }
+      "commit": null
     },
     {
       "slug": "lexguard",
@@ -68,12 +58,7 @@
       "name": "Os_Shell",
       "repo": "raghav-shell/Os_Shell",
       "color": "#bef264",
-      "commit": {
-        "sha": "31f5f3dbf07f62f3ff576dd13f5894655c202002",
-        "url": "https://github.com/raghav-shell/Os_Shell/commit/31f5f3dbf07f62f3ff576dd13f5894655c202002",
-        "message": "Update README to document shell features",
-        "authored_at": "2026-06-20T11:36:36Z"
-      }
+      "commit": null
     }
   ]
 }
