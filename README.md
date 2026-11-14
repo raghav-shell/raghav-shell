@@ -8,10 +8,12 @@
 </p>
 
 <p align="center">
-  <a href="#a-little-about-me">About&nbsp;me</a> &nbsp; · &nbsp;
-  <a href="#things-ive-been-building">My&nbsp;projects</a> &nbsp; · &nbsp;
-  <a href="#a-little-progress-lately">What’s&nbsp;new</a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/raghav-sharma-in/">Say&nbsp;hello&nbsp;↗</a>
+  <a href="#a-little-about-me">About</a> &nbsp; · &nbsp;
+  <a href="#things-ive-been-building">Projects</a> &nbsp; · &nbsp;
+  <a href="#a-little-progress-lately">Build&nbsp;log</a> &nbsp; · &nbsp;
+  <a href="#tech-stack">Stack</a> &nbsp; · &nbsp;
+  <a href="#a-tiny-pause">Play</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><b>Say&nbsp;hello&nbsp;↗</b></a>
 </p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
@@ -21,32 +23,15 @@
 <a name="a-little-about-me"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-about-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-about-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-about-v7-mobile-light.svg"><img src="assets/heading-about-v7-light.svg" width="100%" alt="A little about me" /></picture></h2>
 
-I’m **Raghav Sharma**, a student developer from **India** who enjoys building useful software and taking ideas into **international hackathons**.
+I’m **Raghav Sharma**, a student developer from **India** who takes ideas into **international hackathons** and turns them into software that feels good to use, and looks like someone cared.
 
-I like connecting the whole experience: **a thoughtful interface → a working API → a clear workflow**. My recent team contributions include **branding, frontend development, integration, and document processing**.
+- **How I build** · a thoughtful interface → a working API → a clear workflow
+- **What I bring to a team** · branding, frontend development, integration, and document processing
+- **My everyday stack** · TypeScript, React / Next.js, Python, FastAPI
+- **Growing into** · local AI, document workflows, agent orchestration, and backends with clear policies
 
-I build with **TypeScript, React / Next.js, Python, and FastAPI**. I care about software that feels good to use—and looks like someone cared.
-
-> [!NOTE]
-> **Growing my toolkit:** local AI, document workflows, agent orchestration, and backend systems with clear policies.
-
-<br />
-
-<!-- RAGHAV_FACT_START -->
-<a name="raghav-fact-of-the-day"></a>
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-13"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-13"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-13"><img src="assets/facts/fact-light.svg?day=2026-11-13" width="100%" alt="Raghav Fact of the Day, 2026-11-13 IST. Playful developer joke: Raghav trusts the process. The process exited with code 1." /></picture>
-</p>
-<!-- RAGHAV_FACT_END -->
-
-<details>
-<summary>A little about the daily grin</summary>
-
-A shuffled collection of **32 lighthearted, fictional developer jokes**, starring Raghav. The [daily GitHub Action](.github/workflows/facts.yml) rotates the card around **08:49 IST**; its date shows which day’s joke is displayed. GitHub scheduling and image caching can delay updates.
-
-[Read all the jokes](data/raghav-facts.json) · [Today’s joke](assets/facts/fact.json) · [How it rotates](scripts/update_fact.py)
-
-</details>
+> [!TIP]
+> **Building something for a hackathon, or need a frontend-to-API teammate?** I’d love to hear about it. [Say hello on LinkedIn ↗](https://www.linkedin.com/in/raghav-sharma-in/)
 
 <br />
 
@@ -153,25 +138,12 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 
 <br />
 
-<a name="tools-i-reach-for"></a>
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-tools-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-tools-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-tools-v7-mobile-light.svg"><img src="assets/heading-tools-v7-light.svg" width="100%" alt="Tools I reach for" /></picture></h2>
-
-**For interfaces** · TypeScript, React, Next.js, Tailwind CSS, Vite
-
-**For APIs & data** · Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery
-
-**For AI workflows** · LangGraph, Ollama integration, Gemini, OpenRouter, Tavily
-
-**For building & checking** · Git, Docker Compose, pytest · Java for my shell project
-
-<br />
-
 <a name="tech-stack"></a>
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/heading-stack-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/heading-stack-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/heading-stack-v7-mobile-light.svg"><img src="assets/heading-stack-v7-light.svg" width="100%" alt="Tech stack" /></picture></h2>
 
 **The pieces behind the projects.** A mix of interface tools, backend systems, and AI building blocks.
 
-**🖥️ Interfaces**
+**Interfaces** <sub>· what people see and touch</sub>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/typescript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/typescript-light.svg"><img src="assets/stack/typescript-light.svg" width="96" alt="TypeScript logo" /></picture>
@@ -185,9 +157,7 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/vitejs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/vitejs-light.svg"><img src="assets/stack/vitejs-light.svg" width="96" alt="Vite logo" /></picture>
 </p>
 
-<br />
-
-**🗃️ APIs & data**
+**APIs & data** <sub>· where the work gets done</sub>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/python-light.svg"><img src="assets/stack/python-light.svg" width="96" alt="Python logo" /></picture>
@@ -207,9 +177,7 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/celery-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/celery-light.svg"><img src="assets/stack/celery-light.svg" width="96" alt="Celery logo" /></picture>
 </p>
 
-<br />
-
-**✦ AI workflows**
+**AI workflows** <sub>· models, retrieval, and agents</sub>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/langgraph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/langgraph-light.svg"><img src="assets/stack/langgraph-light.svg" width="96" alt="LangGraph logo" /></picture>
@@ -223,9 +191,7 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tavily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tavily-light.svg"><img src="assets/stack/tavily-light.svg" width="96" alt="Tavily logo" /></picture>
 </p>
 
-<br />
-
-**🛠️ Build & check**
+**Build & check** <sub>· shipping it with confidence</sub>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/git-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/git-light.svg"><img src="assets/stack/git-light.svg" width="96" alt="Git logo" /></picture>
@@ -241,11 +207,30 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/garden-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/garden-v7-light.svg"><img src="assets/garden-v7-light.svg" width="100%" alt="" /></picture></p>
 
+<a name="a-tiny-pause"></a>
+<!-- RAGHAV_FACT_START -->
+<a name="raghav-fact-of-the-day"></a>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-13"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-13"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-13"><img src="assets/facts/fact-light.svg?day=2026-11-13" width="100%" alt="Raghav Fact of the Day, 2026-11-13 IST. Playful developer joke: Raghav trusts the process. The process exited with code 1." /></picture>
+</p>
+<!-- RAGHAV_FACT_END -->
+
+<details>
+<summary>A little about the daily grin</summary>
+
+A shuffled collection of **32 lighthearted, fictional developer jokes**, starring Raghav. The [daily GitHub Action](.github/workflows/facts.yml) rotates the card around **08:49 IST**; its date shows which day’s joke is displayed. GitHub scheduling and image caching can delay updates.
+
+[Read all the jokes](data/raghav-facts.json) · [Today’s joke](assets/facts/fact.json) · [How it rotates](scripts/update_fact.py)
+
+</details>
+
+<br />
+
 <p align="center">
   <a href="https://raghav-shell.github.io/raghav-shell/game/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/game-card-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/game-card-dark.svg"><source media="(max-width: 600px)" srcset="assets/game-card-mobile-light.svg"><img src="assets/game-card-light.svg" width="100%" alt="Play Garden Pairs: a tiny, cute matching game with a pixel cat, sunshine, a sprout, and a star. Eight cards, four pairs. Opens the playable game." /></picture></a>
 </p>
 
-<p align="center"><a href="https://raghav-shell.github.io/raghav-shell/game/"><b>Play a little Garden Pairs ↗</b></a> · Eight cards. Four pairs. No rush.</p>
+<p align="center"><a href="https://raghav-shell.github.io/raghav-shell/game/"><b>Play Garden Pairs ↗</b></a> · a one-minute break, right in your browser</p>
 
 <br />
 
