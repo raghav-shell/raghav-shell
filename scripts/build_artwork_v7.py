@@ -12,8 +12,7 @@ PHRASES = ['Thoughtful code. A little imagination.',
            'From a small idea to a useful workflow.',
            'Learning, building, getting better.']
 TITLES = [('about', 'A little about me'), ('projects', 'Things I’ve been building'),
-          ('progress', 'A little progress lately'), ('tools', 'Tools I reach for'),
-          ('stack', 'Tech stack')]
+          ('progress', 'A little progress lately'), ('stack', 'Tech stack')]
 
 
 def palette(theme):
@@ -101,18 +100,17 @@ def mobile_header(theme):
 
 def headings(theme):
     p = palette(theme)
-    for index, (slug, title) in enumerate(TITLES):
+    for slug, title in TITLES:
         for mobile in [False, True]:
             width, size = (420, 27) if mobile else (960, 32)
             s = gradient(p)
             s += f'<rect x="1" y="8" width="34" height="34" rx="10" fill="{p["chip"]}"/>'
-            # A pixel sparkle, a folder, a sprout, brackets, and a stack.
-            icons = [pixel.star(10, 17, 3, p['blue']),
-                     f'<path d="M9 19H17L20 22H28V33H9Z" stroke="{p["blue"]}" stroke-width="2"/>',
-                     f'<path d="M18 34V22M18 26Q8 26 9 18Q18 18 18 26M18 30Q29 30 28 22Q18 22 18 30" stroke="{p["mint"]}" stroke-width="2"/>',
-                     pixel.text(7, 32, '</>', 13, p['blue'], 700),
-                     f'<path d="M9 21L18 16L27 21L18 26ZM9 27L18 32L27 27M9 32L18 37L27 32" stroke="{p["blue"]}" stroke-width="2"/>']
-            s += icons[index] + pixel.text(48, 35, title, size, 'url(#ink)', 750, 'letter-spacing="-.7"')
+            # A pixel sparkle, a folder, a sprout, and a stack.
+            icons = dict(about=pixel.star(10, 17, 3, p['blue']),
+                     projects=f'<path d="M9 19H17L20 22H28V33H9Z" stroke="{p["blue"]}" stroke-width="2"/>',
+                     progress=f'<path d="M18 34V22M18 26Q8 26 9 18Q18 18 18 26M18 30Q29 30 28 22Q18 22 18 30" stroke="{p["mint"]}" stroke-width="2"/>',
+                     stack=f'<path d="M9 21L18 16L27 21L18 26ZM9 27L18 32L27 27M9 32L18 37L27 32" stroke="{p["blue"]}" stroke-width="2"/>')
+            s += icons[slug] + pixel.text(48, 35, title, size, 'url(#ink)', 750, 'letter-spacing="-.7"')
             # The title stays still; GitHub adds its native heading underline.
             suffix = '-mobile' if mobile else ''
             (ASSETS / f'heading-{slug}-v7{suffix}-{theme}.svg').write_text(pixel.svg(width, 48, title, s))
