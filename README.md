@@ -211,7 +211,7 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 <!-- RAGHAV_FACT_START -->
 <a name="raghav-fact-of-the-day"></a>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-16"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-16"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-16"><img src="assets/facts/fact-light.svg?day=2026-11-16" width="100%" alt="Raghav Fact of the Day, 2026-11-16 IST. Playful developer joke: Raghav’s Git history is a documentary called ‘It Was Working a Minute Ago’." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-17"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-17"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-17"><img src="assets/facts/fact-light.svg?day=2026-11-17" width="100%" alt="Raghav Fact of the Day, 2026-11-17 IST. Playful developer joke: Raghav’s five-minute CSS fix has been renewed for a third season." /></picture>
 </p>
 <!-- RAGHAV_FACT_END -->
 
