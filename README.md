@@ -1,10 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-header-v7-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v7-dark.svg"><source media="(max-width: 600px)" srcset="assets/profile-header-v7-mobile-light.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v7-light.svg"><img src="assets/profile-header-v7-light.svg" width="100%" alt="Hi, I’m Raghav. Thoughtful code, a little imagination. A smiling pixel computer, cat, greenery, and sunshine." /></picture>
-</p>
-
-<p align="center">
-  <b>A curious developer making useful things with a creative touch.</b><br>
-  Full-stack applications · AI workflows · International hackathons
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-header-v8-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-v8-dark.svg"><source media="(max-width: 600px)" srcset="assets/profile-header-v8-mobile-light.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile-header-v8-light.svg"><img src="assets/profile-header-v8-light.svg" width="100%" alt="Hi, I’m Raghav, a student developer in India building full-stack apps and AI workflows for international hackathons. In a pixel garden, a laptop on a wooden crate types out each of my projects in turn while a blue pixel cat sits beside it." /></picture>
 </p>
 
 <p align="center">
@@ -143,64 +138,8 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 
 **The pieces behind the projects.** A mix of interface tools, backend systems, and AI building blocks.
 
-**Interfaces** <sub>· what people see and touch</sub>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/typescript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/typescript-light.svg"><img src="assets/stack/typescript-light.svg" width="96" alt="TypeScript logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/react-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/react-light.svg"><img src="assets/stack/react-light.svg" width="96" alt="React logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/nextjs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/nextjs-light.svg"><img src="assets/stack/nextjs-light.svg" width="96" alt="Next.js logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tailwindcss-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tailwindcss-light.svg"><img src="assets/stack/tailwindcss-light.svg" width="96" alt="Tailwind CSS logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/vitejs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/vitejs-light.svg"><img src="assets/stack/vitejs-light.svg" width="96" alt="Vite logo" /></picture>
-</p>
-
-**APIs & data** <sub>· where the work gets done</sub>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/python-light.svg"><img src="assets/stack/python-light.svg" width="96" alt="Python logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/fastapi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/fastapi-light.svg"><img src="assets/stack/fastapi-light.svg" width="96" alt="FastAPI logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/pydantic-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/pydantic-light.svg"><img src="assets/stack/pydantic-light.svg" width="96" alt="Pydantic logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/postgresql-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/postgresql-light.svg"><img src="assets/stack/postgresql-light.svg" width="96" alt="PostgreSQL logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/sqlalchemy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/sqlalchemy-light.svg"><img src="assets/stack/sqlalchemy-light.svg" width="96" alt="SQLAlchemy logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/sqlite-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/sqlite-light.svg"><img src="assets/stack/sqlite-light.svg" width="96" alt="SQLite logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/redis-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/redis-light.svg"><img src="assets/stack/redis-light.svg" width="96" alt="Redis logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/celery-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/celery-light.svg"><img src="assets/stack/celery-light.svg" width="96" alt="Celery logo" /></picture>
-</p>
-
-**AI workflows** <sub>· models, retrieval, and agents</sub>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/langgraph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/langgraph-light.svg"><img src="assets/stack/langgraph-light.svg" width="96" alt="LangGraph logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/ollama-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/ollama-light.svg"><img src="assets/stack/ollama-light.svg" width="96" alt="Ollama logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/googlegemini-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/googlegemini-light.svg"><img src="assets/stack/googlegemini-light.svg" width="96" alt="Gemini logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/openrouter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/openrouter-light.svg"><img src="assets/stack/openrouter-light.svg" width="96" alt="OpenRouter logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/tavily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/tavily-light.svg"><img src="assets/stack/tavily-light.svg" width="96" alt="Tavily logo" /></picture>
-</p>
-
-**Build & check** <sub>· shipping it with confidence</sub>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/git-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/git-light.svg"><img src="assets/stack/git-light.svg" width="96" alt="Git logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/docker-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/docker-light.svg"><img src="assets/stack/docker-light.svg" width="96" alt="Docker Compose logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/pytest-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/pytest-light.svg"><img src="assets/stack/pytest-light.svg" width="96" alt="pytest logo" /></picture>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/java-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/java-light.svg"><img src="assets/stack/java-light.svg" width="96" alt="Java logo" /></picture>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/stack-panel-v8-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/stack-panel-v8-dark.svg"><source media="(max-width: 600px)" srcset="assets/stack-panel-v8-mobile-light.svg"><img src="assets/stack-panel-v8-light.svg" width="100%" alt="Tech stack. Interfaces: TypeScript, React, Next.js, Tailwind CSS, Vite. APIs and data: Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy, SQLite, Redis, Celery. AI workflows: LangGraph, Ollama, Gemini, OpenRouter, Tavily. Build and check: Git, Docker Compose, pytest, Java." /></picture>
 </p>
 
 <br />
