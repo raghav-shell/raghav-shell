@@ -36,9 +36,9 @@ I’m **Raghav Sharma**, a student developer from **India** who takes ideas into
 **Small ideas, real projects.** Pick a card to explore the repository; open its notes for the engineering and my contributions.
 
 <p align="center">
-  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v7-light.svg"><img src="assets/project-aegis-v7-light.svg" width="390" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
+  <a href="https://github.com/kartikeyajay2006/Sovereign-On_Premise-Agentic-AI-Workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-aegis-v8-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-aegis-v8-light.svg"><img src="assets/project-aegis-v8-light.svg" width="390" alt="AEGIS — local industrial AI workbench. Team project; my work includes branding, interface, integration, and PDF extraction." /></picture></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v7-light.svg"><img src="assets/project-visionx-v7-light.svg" width="390" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
+  <a href="https://github.com/raghav-shell/VisionX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-visionx-v8-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-visionx-v8-light.svg"><img src="assets/project-visionx-v8-light.svg" width="390" alt="VisionX — computer-vision assurance workspace. Team project; my work includes branding, frontend, and API integration." /></picture></a>
 </p>
 
 <details>
@@ -55,9 +55,9 @@ I’m **Raghav Sharma**, a student developer from **India** who takes ideas into
 <br />
 
 <p align="center">
-  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v7-light.svg"><img src="assets/project-razorflow-v7-light.svg" width="390" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
+  <a href="https://github.com/raghav-shell/RazorFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-razorflow-v8-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-razorflow-v8-light.svg"><img src="assets/project-razorflow-v8-light.svg" width="390" alt="RazorFlow — failed-payment recovery in test mode, with policy checks, workers, and audit trails." /></picture></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v7-light.svg"><img src="assets/project-competeiq-v7-light.svg" width="390" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
+  <a href="https://github.com/raghav-shell/Compete_latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-competeiq-v8-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-competeiq-v8-light.svg"><img src="assets/project-competeiq-v8-light.svg" width="390" alt="CompeteIQ — research agents with a bounded reflection loop and reporting integrations." /></picture></a>
 </p>
 
 <details>
@@ -72,9 +72,9 @@ I’m **Raghav Sharma**, a student developer from **India** who takes ideas into
 <br />
 
 <p align="center">
-  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v7-light.svg"><img src="assets/project-lexguard-v7-light.svg" width="390" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
+  <a href="https://github.com/raghav-shell/Lexguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-lexguard-v8-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-lexguard-v8-light.svg"><img src="assets/project-lexguard-v8-light.svg" width="390" alt="Lexguard — contract-review prototype. Analysis failures can return demo data." /></picture></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v7-light.svg"><img src="assets/project-shell-v7-light.svg" width="390" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
+  <a href="https://github.com/raghav-shell/Os_Shell"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-shell-v8-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-shell-v8-light.svg"><img src="assets/project-shell-v8-light.svg" width="390" alt="Os_Shell — Java shell built through CodeCrafters, with parsing, pipes, redirection, and job tracking." /></picture></a>
 </p>
 
 <details>
