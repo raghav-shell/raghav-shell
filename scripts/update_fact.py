@@ -46,7 +46,7 @@ def render_card(fact, day, theme='light', mobile=False):
     height = max(246 if mobile else 216, (106 if mobile else 117) + (len(lines) - 1) * 29 + 52)
     s = '<style>.think{animation:think 5s ease-in-out infinite}.spark{animation:spark 4s ease-in-out infinite}@keyframes think{50%{transform:translateY(-4px)}}@keyframes spark{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.think,.spark{animation:none}}</style>'
     s += f'<rect x="2" y="2" width="{width-4}" height="{height-4}" rx="19" fill="{bg}" stroke="{line}" stroke-width="1.5"/>'
-    s += art.text(23 if mobile else 28, 30, 'PLAYFUL DEVELOPER LORE', 9 if mobile else 10, accent, 700, 'letter-spacing="1.5"')
+    s += art.text(23 if mobile else 28, 30, 'playful developer lore', 11 if mobile else 12, accent, 650)
     s += art.text(21 if mobile else 26, 71, 'Raghav Fact of the Day.', 26 if mobile else 32, ink, 750, 'letter-spacing="-.8"')
     for index, value in enumerate(lines):
         s += art.text(23 if mobile else 28, (106 if mobile else 117) + index * 29, value, 19 if mobile else 22, ink, 550)
@@ -57,7 +57,7 @@ def render_card(fact, day, theme='light', mobile=False):
         s += '<g class="think">' + recolour(art.cat(355, 17, 2.5), theme) + '</g>'
         s += art.text(335, 33, ';', 22, accent, 700, f'class="spark" font-family="{art.MONO}"')
     else:
-        s += art.text(926, 31, 'ONE FRESH JOKE EACH DAY', 10, muted, 550, 'text-anchor="end" letter-spacing=".8"')
+        s += art.text(926, 31, 'a fresh joke each day', 12, muted, 550, 'text-anchor="end"')
         s += '<g class="think">'
         s += f'<rect x="815" y="80" width="87" height="47" rx="14" fill="{bg}" stroke="{line}" stroke-width="2"/><path d="M837 127L827 137L852 127" fill="{bg}" stroke="{line}" stroke-width="2"/>'
         s += art.text(858, 112, ';', 29, accent, 700, f'text-anchor="middle" font-family="{art.MONO}"') + '</g>'

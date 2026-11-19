@@ -106,53 +106,81 @@ def short(value, maximum):
     return value if len(value) <= maximum else value[:maximum - 1] + "…"
 
 
+MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace"
+# Terminal colours: the build log reads as a real `git log`, echoing the hero's laptop.
+TERMINAL = {
+    "light": dict(shadow="#c9dce8", frame="#46697e", bar="#f2f8fc", bar_text="#4c6e83", screen="#13293d"),
+    "dark": dict(shadow="#080f17", frame="#4d728c", bar="#101e2b", bar_text="#abc3d3", screen="#060e16"),
+}
+INK = dict(text="#c2ead8", dim="#7fa7bf", sha="#f6d277", ok="#8fdcb5")
+NAME_COLOURS = {"aegis": "#8cc2e8", "visionx": "#8fdcb5", "razorflow": "#f2c46d",
+                "competeiq": "#7fd6db", "lexguard": "#b9b4f0", "shell": "#c3df8a"}
+
+
+def recent(snapshot, limit):
+    return sorted((p for p in snapshot["projects"] if p["commit"]), key=lambda p: date(p["commit"]["authored_at"]), reverse=True)[:limit]
+
+
+def mono(x, y, content, size, color, weight=500, extra=""):
+    return txt(x, y, content, size, color, weight, f'font-family="{MONO}" {extra}')
+
+
+def terminal(width, height, label, body, theme):
+    t = TERMINAL[theme]
+    s = f'<rect x="8" y="8" width="{width - 10}" height="{height - 10}" rx="18" fill="{t["shadow"]}"/>'
+    s += f'<defs><clipPath id="window"><rect x="2" y="2" width="{width - 10}" height="{height - 10}" rx="18"/></clipPath></defs>'
+    s += f'<g clip-path="url(#window)"><rect width="{width}" height="{height}" fill="{t["screen"]}"/>'
+    s += f'<rect width="{width}" height="44" fill="{t["bar"]}"/><path d="M0 44H{width}" stroke="{t["frame"]}" stroke-width="1.5"/>'
+    for i, c in enumerate(["#8bbddd", "#f6cf69", "#a1d7b0"]):
+        s += f'<circle cx="{24 + i * 17}" cy="23" r="5" fill="{c}"/>'
+    s += mono(84, 28, label, 12, t["bar_text"]) + body + "</g>"
+    s += f'<rect x="2" y="2" width="{width - 10}" height="{height - 10}" rx="18" fill="none" stroke="{t["frame"]}" stroke-width="2"/>'
+    return s
+
+
+def svg_document(width, height, title, content):
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title><g font-family="{FONT}">{content}</g></svg>\n'
+
+
 def render_activity(snapshot, theme="light"):
     updated = date(snapshot["updated_at"]).astimezone(ZoneInfo("Asia/Kolkata")).strftime("%d %b %Y · %H:%M IST")
-    projects = sorted((p for p in snapshot["projects"] if p["commit"]), key=lambda p: date(p["commit"]["authored_at"]), reverse=True)[:4]
-    s = '<defs><clipPath id="messages"><rect x="244" y="110" width="556" height="250"/></clipPath></defs><rect x=".5" y=".5" width="959" height="429" rx="22" fill="#131728" stroke="#38394f"/><path d="M30 1H930" stroke="#c4b5fd" stroke-width="2"/>'
-    s += txt(32, 37, "THE BUILD LOG", 12, "#c4b5fd", 650, 'letter-spacing="2"')
-    s += txt(31, 81, "The latest little steps.", 31, "#f5f4ff", 750, 'font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"')
-    s += txt(929, 38, "DAILY / PUBLIC COMMITS", 11, "#a6b1cb", 500, 'text-anchor="end" letter-spacing="1"')
-    s += '<path d="M32 106H928" stroke="#33374c"/>'
+    projects = recent(snapshot, 6)
+    rows = max(len(projects), 1)
+    width, height = 960, 196 + rows * 36
+    s = mono(30, 86, "$ git log --author=raghav-shell --latest-per-project", 14, INK["text"], 700)
     for index, project in enumerate(projects):
-        y = 143 + index * 60
+        y = 126 + index * 36
         commit = project["commit"]
-        s += f'<circle class="commit-dot" cx="40" cy="{y-5}" r="6" fill="{project["color"]}"/>'
-        s += txt(59, y, project["name"], 19, project["color"], 650)
-        s += '<g clip-path="url(#messages)">' + txt(244, y, short(commit["message"], 54), 17) + '</g>'
-        s += txt(928, y, date(commit["authored_at"]).strftime("%d %b %Y"), 13, "#abb7cf", 500, 'text-anchor="end"')
-        s += txt(244, y + 20, commit["sha"][:7] + " · " + project["repo"].split('/')[0], 11, "#8995b3")
+        s += mono(30, y, commit["sha"][:7], 14, INK["sha"])
+        s += mono(108, y, project["name"], 14, NAME_COLOURS.get(project["slug"], INK["text"]), 700)
+        s += mono(212, y, short(commit["message"], 62), 14, INK["text"])
+        s += mono(922, y, date(commit["authored_at"]).strftime("%d %b %Y"), 13, INK["dim"], 500, 'text-anchor="end"')
     if not projects:
-        s += txt(32, 176, "No public authored commits found in the selected repositories.", 20)
-    s += '<path d="M32 367H928" stroke="#33374c"/>'
-    s += txt(32, 397, f"SNAPSHOT · {updated}", 11, "#abb7cf", 500, 'letter-spacing=".7"')
-    s += txt(928, 397, f"{len(snapshot['projects'])} SELECTED REPOSITORIES", 11, "#a9a1d4", 500, 'text-anchor="end" letter-spacing=".7"')
-    title = "Latest authored commits. " + "; ".join(p["name"] + ": " + p["commit"]["message"] for p in projects) + ". Snapshot " + updated
-    return frame(960, 430, title, s, theme)
+        s += mono(30, 126, "# No public authored commits found in the selected repositories.", 14, INK["dim"])
+    footer = 126 + rows * 36 + 6
+    s += mono(30, footer, f"# snapshot {updated} · {len(snapshot['projects'])} repositories watched", 12, INK["dim"])
+    s += mono(30, footer + 30, "$", 14, INK["text"], 700) + f'<rect x="46" y="{footer + 18}" width="8" height="15" fill="{INK["text"]}"/>'
+    title = "Build log: latest authored commits. " + "; ".join(p["name"] + ": " + p["commit"]["message"] for p in projects) + ". Snapshot " + updated
+    return svg_document(width, height, title, terminal(width, height, "~/garden — git log", s, theme))
 
 
 def render_mobile_activity(snapshot, theme="light"):
     updated = date(snapshot["updated_at"]).astimezone(ZoneInfo("Asia/Kolkata")).strftime("%d %b %Y · %H:%M IST")
-    projects = sorted((p for p in snapshot["projects"] if p["commit"]), key=lambda p: date(p["commit"]["authored_at"]), reverse=True)[:4]
-    s = '<defs><clipPath id="content"><rect x="22" y="102" width="376" height="405"/></clipPath></defs><rect x=".5" y=".5" width="419" height="559" rx="20" fill="#131728" stroke="#38394f"/>'
-    s += txt(22, 33, "THE BUILD LOG", 11, "#c4b5fd", 650, 'letter-spacing="1.6"')
-    s += txt(21, 73, "The latest little steps.", 25, "#f5f4ff", 750, 'font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"')
-    s += '<path d="M22 91H398" stroke="#33374c"/><g clip-path="url(#content)">'
+    projects = recent(snapshot, 4)
+    rows = max(len(projects), 1)
+    width, height = 420, 150 + rows * 62
+    s = mono(20, 78, "$ git log --latest", 13, INK["text"], 700)
     for index, project in enumerate(projects):
-        y = 121 + index * 98
+        y = 112 + index * 62
         commit = project["commit"]
-        s += f'<circle class="commit-dot" cx="27" cy="{y-6}" r="4" fill="{project["color"]}"/>'
-        s += txt(40, y, project["name"], 18, project["color"], 650)
-        s += txt(398, y, date(commit["authored_at"]).strftime("%d %b %Y"), 12, "#abb7cf", 500, 'text-anchor="end"')
-        lines = textwrap.wrap(commit["message"], width=43, max_lines=2, placeholder="…")
-        for line, value in enumerate(lines):
-            s += txt(22, y + 25 + line * 21, value, 15)
-        s += txt(22, y + 65, commit["sha"][:7], 11, "#8995b3")
+        s += mono(20, y, commit["sha"][:7], 12, INK["sha"])
+        s += mono(84, y, project["name"], 12, NAME_COLOURS.get(project["slug"], INK["text"]), 700)
+        s += mono(396, y, date(commit["authored_at"]).strftime("%d %b %Y"), 11, INK["dim"], 500, 'text-anchor="end"')
+        s += mono(20, y + 22, short(commit["message"], 52), 11, INK["text"])
     if not projects:
-        s += txt(22, 130, "No public authored commits found.", 17)
-    s += '</g><path d="M22 511H398" stroke="#33374c"/>'
-    s += txt(22, 538, updated, 11, "#abb7cf")
-    return frame(420, 560, "Latest public authored commits. Snapshot " + updated, s, theme)
+        s += mono(20, 112, "# No public authored commits found.", 12, INK["dim"])
+    s += mono(20, 112 + rows * 62, f"# {updated}", 11, INK["dim"])
+    return svg_document(width, height, "Build log: latest public authored commits. Snapshot " + updated, terminal(width, height, "~/garden — git log", s, theme))
 
 
 def render_badge(project):
