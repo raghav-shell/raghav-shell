@@ -20,7 +20,8 @@
 
 I’m **Raghav Sharma**, a student developer from **India** who takes ideas into **international hackathons** and turns them into software that feels good to use, and looks like someone cared.
 
-- **How I build** · a thoughtful interface → a working API → a clear workflow
+<p align="center"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/how-i-build-v8-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/how-i-build-v8-dark.svg"><source media="(max-width: 600px)" srcset="assets/how-i-build-v8-mobile-light.svg"><img src="assets/how-i-build-v8-light.svg" width="100%" alt="How I build: a thoughtful interface, then a working API, then a clear workflow." /></picture></p>
+
 - **What I bring to a team** · branding, frontend development, integration, and document processing
 - **My everyday stack** · TypeScript, React / Next.js, Python, FastAPI
 - **Growing into** · local AI, document workflows, agent orchestration, and backends with clear policies
@@ -166,7 +167,7 @@ A shuffled collection of **32 lighthearted, fictional developer jokes**, starrin
 <br />
 
 <p align="center">
-  <a href="https://raghav-shell.github.io/raghav-shell/game/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/game-card-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/game-card-dark.svg"><source media="(max-width: 600px)" srcset="assets/game-card-mobile-light.svg"><img src="assets/game-card-light.svg" width="100%" alt="Play Garden Pairs: a tiny, cute matching game with a pixel cat, sunshine, a sprout, and a star. Eight cards, four pairs. Opens the playable game." /></picture></a>
+  <a href="https://raghav-shell.github.io/raghav-shell/game/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/game-card-v8-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/game-card-v8-dark.svg"><source media="(max-width: 600px)" srcset="assets/game-card-v8-mobile-light.svg"><img src="assets/game-card-v8-light.svg" width="100%" alt="Play Garden Pairs: a tiny matching game with eight cards and four pairs, no timer. Opens the playable game." /></picture></a>
 </p>
 
 <p align="center"><a href="https://raghav-shell.github.io/raghav-shell/game/"><b>Play Garden Pairs ↗</b></a> · a one-minute break, right in your browser</p>
@@ -174,7 +175,7 @@ A shuffled collection of **32 lighthearted, fictional developer jokes**, starrin
 <br />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v7-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/connect-v7-light.svg"><img src="assets/connect-v7-light.svg" width="100%" alt="Have something fun to build? Say hello for hackathons and software collaboration." /></picture></a>
+  <a href="https://www.linkedin.com/in/raghav-sharma-in/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/connect-v8-mobile-dark.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/connect-v8-dark.svg"><source media="(max-width: 600px)" srcset="assets/connect-v8-mobile-light.svg"><img src="assets/connect-v8-light.svg" width="100%" alt="Have something fun to build? Hackathon teams and software collaborations welcome. Say hello on LinkedIn." /></picture></a>
 </p>
 
 <p align="center">
