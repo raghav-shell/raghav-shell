@@ -151,7 +151,7 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 <!-- RAGHAV_FACT_START -->
 <a name="raghav-fact-of-the-day"></a>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-21"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-21"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-21"><img src="assets/facts/fact-light.svg?day=2026-11-21" width="100%" alt="Raghav Fact of the Day, 2026-11-21 IST. Playful developer joke: Raghav’s README has better lighting than his room." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-22"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-22"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-22"><img src="assets/facts/fact-light.svg?day=2026-11-22" width="100%" alt="Raghav Fact of the Day, 2026-11-22 IST. Playful developer joke: Raghav’s CSS has trust issues. It needs !important reassurance." /></picture>
 </p>
 <!-- RAGHAV_FACT_END -->
 
