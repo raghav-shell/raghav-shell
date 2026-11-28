@@ -151,7 +151,7 @@ The [daily garden Action](.github/workflows/garden.yml) refreshes the artwork ar
 <!-- RAGHAV_FACT_START -->
 <a name="raghav-fact-of-the-day"></a>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-27"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-27"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-27"><img src="assets/facts/fact-light.svg?day=2026-11-27" width="100%" alt="Raghav Fact of the Day, 2026-11-27 IST. Playful developer joke: Raghav renamed ‘temp’ to ‘temp_permanent’. Finally, an honest variable." /></picture>
+  <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/facts/fact-mobile-dark.svg?day=2026-11-28"><source media="(prefers-color-scheme: dark)" srcset="assets/facts/fact-dark.svg?day=2026-11-28"><source media="(max-width: 600px)" srcset="assets/facts/fact-mobile-light.svg?day=2026-11-28"><img src="assets/facts/fact-light.svg?day=2026-11-28" width="100%" alt="Raghav Fact of the Day, 2026-11-28 IST. Playful developer joke: Raghav fixed the bug by staring at it. The bug calls this intimidation." /></picture>
 </p>
 <!-- RAGHAV_FACT_END -->
 
